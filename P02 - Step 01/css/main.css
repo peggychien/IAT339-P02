@@ -10,6 +10,7 @@ html{
 body {
   font-family: sans-serif;
   padding: 2rem;
+  background-color: #F7F1EB;
 }
 
 section:not([id]) {
@@ -34,7 +35,6 @@ section code {
 
 .process{
   width: 100%;
-  background-color: white;
   opacity: 0.8;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -54,7 +54,7 @@ section code {
   font-size: 3em;
   margin-bottom: 1em;
   text-align: center;
-  color: #6f473b;
+  color: #BB432B;
 }
 
 /*
@@ -65,35 +65,37 @@ section code {
 .button-nav {
   display: inline-block;
   padding: 2em 3em;
-  color: #945445;
-  background-color: #FFF;
+  color: #C36629;
   text-decoration: none;
   border-style: solid;
   border-width: thin;
-  border-color: white;
+  border-color: transparent;
   -webkit-transition: background-color 0.5s ease-out;
   transition: border-color 0.5s ease-out;
   font-family: 'Demi', Helvetica, sans-serif;
 }
 
 .button-nav:hover, .button-nav:focus {
-  border-color: #916A5A;
+  border-color: #C36629;
   border-style: solid;
 }
 
 .button-buy {
   display: inline-block;
   padding: 1em 4.5em;
-  color: #FFF;
-  background-color: #945445;
+  color: #C36629;
+  border-style: solid;
+  border-width: thin;
+  border-color: #C36629;
   text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
+  transition: background-color 0.2s ease-out;
   font-family: 'Demi', Helvetica, sans-serif;
 }
 
 .button-buy:hover, .button-buy:focus {
-  background-color: #a0685f;
+  background-color: #C36629;
+  color: white;
 }
 
 
@@ -224,19 +226,19 @@ i{
 .colour-item-3 {
   flex: 1 1 auto;
   margin-right: 1.5rem;
-  background-color: rgb(255, 255, 255);
+  background-color: #F7F1EB;
   border: solid 1px rgb(217, 217, 217);
 }
 
 .colour-item-4 {
   flex: 1 1 auto;
   margin-right: 1.5rem;
-  background-color: #B99584;
+  background-color: #BB432B;
 }
 
 .colour-item-5 {
   flex: 1 1 auto;
-  background-color: #A86F69;
+  background-color: #C36629;
 }
 
 .colour-code-container {

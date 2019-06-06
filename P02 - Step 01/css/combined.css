@@ -7,19 +7,18 @@
 .main-nav {
   display: inline-block;
   padding: 2em 3em;
-  color: #945445;
-  background-color: #FFF;
+  color: #C36629;
   text-decoration: none;
   border-style: solid;
   border-width: thin;
-  border-color: white;
+  border-color: transparent;
   -webkit-transition: background-color 0.5s ease-out;
   transition: border-color 0.5s ease-out;
   font-family: 'Light', Helvetica, sans-serif;
 }
 
 .main-nav:hover, .main-nav:focus {
-  border-color: #916A5A;
+  border-color: #C36629;
   border-style: solid;
 }
 
@@ -28,8 +27,7 @@
   display: inline-block;
   font-size: 2em;
   padding: 2em 3em;
-  color: #BA9584;
-  background-color: #FFF;
+  color: #BB432B;
   letter-spacing: 0.15em;
   text-decoration: none;
   -webkit-transition: color 0.5s ease-out;
@@ -38,8 +36,9 @@
 }
 
 .main-nav-title:hover, .main-nav-title:focus {
-  color: #916A5A;
+  color: #B23B28;
 }
+
 
 .product{
   display: flex;
