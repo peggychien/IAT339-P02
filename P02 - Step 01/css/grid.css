@@ -1,0 +1,63 @@
+.nav-box{
+  display: flex;
+}
+
+.nav-container{
+  height: 5em;
+  width: 15%;
+}
+
+.nav-container:nth-of-type(even) {
+  background-color: #c8c8c8;
+}
+
+.nav-container:nth-of-type(odd) {
+
+  background-color: #e2e2e2;
+}
+
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+.sale{
+  width: 100%;
+  height: 2em;
+  background-color: #262626;
+}
+
+.landing-img{
+  width: 100%;
+  height: 30em;
+  background-color: #e2e2e2;
+}
+
+.mid{
+  width: 100%;
+  height: 12em;
+  background-color: #c8c8c8;
+}
+
+.foot{
+  width: 100%;
+  height: 18em;
+  background-color: #c8c8c8;
+}
+
+.prod-box{
+  display: flex;
+}
+
+.prod-img{
+  width: 33.333%;
+  height: 25em;
+}
+
+.prod-img:nth-of-type(even) {
+  background-color: #d8d8d8;
+}
+
+.prod-img:nth-of-type(odd) {
+
+  background-color: #e2e2e2;
+}

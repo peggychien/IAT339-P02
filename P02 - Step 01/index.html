@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>honest - style guide</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/text.css" rel="stylesheet">
+    <link href="css/combined.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <h1 class="header-main">HONEST</h1>
+
+    <div class="process">
+      <a href="sitemap.html" class="button-nav">SITE MAP</a>
+      <a href="index.html" class="button-nav">STYLE GUIDE</a>
+      <a href="citations.html" class="button-nav">CITATIONS</a>
+      <a href="https://github.com/peggychien/IAT339-P02/graphs/contributors" class="button-nav">GITHUB</a>
+    </div>
+
+    <h3 class="third-title-main">Style guide</h3>
+
+
+    <nav>
+
+      <p>
+      Go to:
+      <br> <br>
+      <a href="#interactive_elements" class="navigation">Interactive Elements</a>
+      <br>
+      <a href="#text_elements" class="navigation">Text Elements</a>
+      <br>
+      <a href="#combined_elements" class="navigation">Combined Elements</a>
+      </p>
+    </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button-nav"&gt;ADD TO YOUR CART&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a href="#" class="button-nav">PRODUCTS</a>
+
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button-nav"&gt;ADD TO YOUR CART&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a href="#" class="intext-link">Show more</a>
+      </section>
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-buy</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button-nav"&gt;ADD TO YOUR CART&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a href="#" class="button-buy">ADD TO YOUR CART</a>
+
+      </section>
+
+      <section>
+        <h2>Text Input Field</h2>
+        <h3>CSS selector:</h3>
+        <p>input[type=text]</p>
+
+          <form>
+            <label for="fname">Full name</label>
+            <input type="text" id="fname" name="fname" placeholder="I love you so matcha">
+            <label for="lname">Address</label>
+            <input type="text" id="lname" name="lname" placeholder="837 Matcha Street">
+          </form>
+
+          <h3>Sample code:</h3>
+          <code>&lt;label for="fname"&gt;Full name&lt;/label&gt;
+            <br>
+          &lt;type="text" id="fname" name="fname" placeholder="I love you so matcha"&gt;</code>
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+        <h3 class="headings_divider">CSS selector:</h3>
+        <p>.main-title</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;h1 class="main-title"&gt;HONEST&lt;/h1&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <h1 class="main-title">HONEST</h1>
+
+        <section>
+
+        <h3 class="headings_divider">CSS selector:</h3>
+        <p>.second-title</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;h2 class="second-title"&gt;Featured Products&lt;/h2&gt;
+
+        </code>
+
+        <h3>Rendered element:</h3>
+        <h2 class="second-title">Featured Products</h2>
+        </section>
+
+
+
+        <!------------ HEADING 3 ------------>
+        <section>
+        <h3 class="headings_divider">CSS selector:</h3>
+        <p>.third-title</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;h3 class="third-title"&gt;Roasted Panama Beans&lt;/h3&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <h3 class="third-title">Roasted Panama Beans</h3>
+        </section>
+
+
+
+
+        <section>
+        <h3 class="headings_divider">CSS selector:</h3>
+        <p>.fourth-title</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;h4 class="fourth-title"&gt;$48 IN STOCK&lt;/h4&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <h4 class="fourth-title">FROM $24.99 IN STOCK</h4>
+
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+
+        <h3 class="headings_divider">CSS selector:</h3>
+        <p>.body-copy</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;p&gt;Typically, coffee from Guatemala is sweet with a medium to full
+            <br>body and a chocolate taste ranging from cocoa (bittersweet) to milk chocolate.
+            <br>But enough with the gibble-gabble already, here's what you really to know: This
+            <br>batch of coffee from Quetzaltenango [pronounced ketsalteˈnaŋgo] is seriously mouth-watering. &lt;/p&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <p class="body-copy">Typically, coffee from Guatemala is sweet with a medium to full
+          body and a chocolate taste ranging from cocoa (bittersweet) to milk chocolate.
+          But enough with the gibble-gabble already, here's what you really to know: This
+          batch of coffee from Quetzaltenango [pronounced ketsalteˈnaŋgo] is seriously mouth-watering.</p>
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+
+        <h3 class="headings_divider">CSS selector:</h3>
+        <p>ul</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;ul&gt;
+          <br>
+            &lt;li&gt;Coffee&lt;/li&gt;
+            <br>
+            &lt;li&gt;Tea&lt;/li&gt;
+            <br>
+            &lt;li&gt;Matcha&lt;/li&gt;
+            <br>
+            &lt;li&gt;All&lt;/li&gt;
+            <br>
+          &lt;/ul&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <ul>
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Matcha</li>
+          <li>All</li>
+        </ul>
+
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+
+        <h3 class="headings_divider">CSS selector:</h3>
+        <p>ol</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;ol&gt;
+          <br>
+          &lt;li&gt;Coffee&lt;/li&gt;
+          <br>
+          &lt;li&gt;Tea&lt;/li&gt;
+          <br>
+          &lt;li&gt;Matcha&lt;/li&gt;
+          <br>
+          &lt;li&gt;All&lt;/li&gt;
+          <br>
+          &lt;/ol&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <ol>
+          <li>Dark Roast</li>
+          <li>Light Roast</li>
+          <li>Medium Roast</li>
+          <li>Medium-Dark Roast</li>
+        </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.main-nav, main-nav-title</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="main-nav"&gt;PRODUCTS&lt;/a&gt;
+            <br>
+            &lt;a href="#" class="main-nav"&gt;ABOUT&lt;/a&gt;
+            <br>
+            &lt;a href="#" class="main-nav"&gt;CONTACT&lt;/a&gt;
+            <br>
+            &lt;a href="#" class="main-nav-title"&gt;Beauty Archive&lt;/a&gt;
+            <br>
+            &lt;a href="#" class="main-nav"&gt;SEARCH&lt;/a&gt;
+            <br>
+            &lt;a href="#" class="main-nav"&gt;SIGN IN&lt;/a&gt;
+            <br>
+            &lt;a href="#" class="main-nav"&gt;BAG (0)&lt;/a&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <a href="#" class="main-nav">PRODUCTS</a>
+        <a href="#" class="main-nav">ABOUT</a>
+        <a href="#" class="main-nav">CONTACT</a>
+        <a href="#" class="main-nav-title">HONEST</a>
+        <a href="#" class="main-nav">SEARCH</a>
+        <a href="#" class="main-nav">SIGN IN</a>
+        <a href="#" class="main-nav">BAG (0)</a>
+
+
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.product, .half, .product-description, .stars</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;div class="product"&gt;
+            <br>
+            &lt;div class="half"&gt;
+            <br>
+                  &lt;img src="img/cera.jpg alt="Dr.Jart" class="product-img"&gt;
+                  <br>
+              &lt;/div&gt; <br>
+            <br>
+            &lt;div class="product-description half"&gt;
+              <br>
+              &lt;h4 class="fourth-title"&gt; from $25.99 IN STOCK &lt;/h4&gt;
+              <br>
+              &lt;h3 class="third-title"&gt; EGYPTIAN CHAMOMILE TEA &lt;/h3&gt;
+              <br>
+                &lt;hr&gt;
+                <br>
+                  &lt;div class="stars"&gt;
+                  <br>
+                        &lt;img src="img/star.png alt="Stars" class="star-rating"&gt;
+                        <br>
+                        &lt;img src="img/star.png alt="Stars" class="star-rating"&gt;
+                        <br>
+                        &lt;img src="img/star.png alt="Stars" class="star-rating"&gt;
+                        <br>
+                        &lt;img src="img/star.png alt="Stars" class="star-rating"&gt;
+                        <br>
+                        &lt;img src="img/star.png alt="Stars" class="star-rating"&gt;
+                        <br>
+                &lt;/div&gt; <br>
+                &lt;p&gt;A deeply moisturizing cream supercharged with 5-Cera Complex to strengthen
+                <br>the skin barrier and shield from water and moisture loss. Dr. Jart’s proprietary
+                <br>5-Cera Complex fundamentally strengthens the skin barrier to prevent dryness in
+                <br>even harsh climates. &lt;/p&gt;
+                <br>&lt;a href="#" class="button-nav"&gt;ADD TO YOUR CART&lt;/a&gt;
+                <br> &lt;/div&gt; <br>
+              &lt;/div&gt;
+          </code>
+
+        <div class="product">
+          <div class="half">
+            <img src="img/tea.jpg" alt="Dr.Jart" class="product-img">
+          </div>
+
+          <div class="product-description half">
+            <h4 class="fourth-title">from $25.99 IN STOCK</h4>
+            <h3 class="third-title">EGYPTIAN CHAMOMILE TEA</h3>
+            <hr>
+            <div class="stars">
+              <img src="img/star.png" alt="Stars" class="star-rating">
+              <img src="img/star.png" alt="Stars" class="star-rating">
+              <img src="img/star.png" alt="Stars" class="star-rating">
+              <img src="img/star.png" alt="Stars" class="star-rating">
+              <img src="img/star.png" alt="Stars" class="star-rating">
+            </div>
+            <p class="body-copy-modified">Egyptian Chamomile is regarded the best quality on the market.
+              Full buds impart a heady and earthy aroma in the cup. Chamomile tea’s most well-known benefit
+              is as a sleep aid. It is known for its relaxing and soothing properties and is often taken
+              before bed to promote restful sleep.</p>
+
+            <a href="#" class="button-buy">ADD TO YOUR CART</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Grid Structure</h2>
+        <div class="nav-box">
+          <div class="nav-container"><h4 class="grid-text">products</h4></div>
+          <div class="nav-container"><h4 class="grid-text">about</h4></div>
+          <div class="nav-container"><h4 class="grid-text">contact</h4></div>
+          <div class="nav-container"><h4 class="grid-text">honest</h4></div>
+          <div class="nav-container"><h4 class="grid-text">search</h4></div>
+          <div class="nav-container"><h4 class="grid-text">sign in</h4></div>
+          <div class="nav-container"><h4 class="grid-text">bag</h4></div>
+        </div>
+        <div class="sale"></div>
+        <div class="landing-img"></div>
+        <div class="mid"></div>
+        <div class="prod-box">
+          <div class="prod-img"></div>
+          <div class="prod-img"></div>
+          <div class="prod-img"></div>
+        </div>
+        <div class="foot"></div>
+      </section>
+
+      <section>
+        <h2>Colour Swatches</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.colour-code-item</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;div class="colors"&gt;
+          <br>
+            &lt;div class="square_black"&gt;
+            <br>
+            &lt;p class="white"&gt;#000000&lt;/p&gt;
+            <br>
+            &lt;/div&gt;
+            <br>
+            &lt;div class="square_grey"&gt;
+            <br>
+            &lt;p class="white"&gt;#606060&lt;/p&gt;
+            <br>
+            &lt;/div&gt;
+            <br>
+            &lt;div class="square_white"&gt;
+            <br>
+            &lt;p&gt;#ffffff&lt;/p&gt;
+            <br>
+            &lt;/div&gt;
+            <br>
+          &lt;/div&gt;
+        </code>
+
+        <div class="colour-container">
+          <div class="colour-item-1"></div>
+          <div class="colour-item-2"></div>
+          <div class="colour-item-3"></div>
+          <div class="colour-item-4"></div>
+          <div class="colour-item-5"></div>
+        </div>
+
+        <div class="colour-code-container">
+          <div class="colour-code-item">eerie black / rgb(22, 22, 22) / #171616</div>
+          <div class="colour-code-item">empress grey / rgb(115, 115, 115) / #737373</div>
+          <div class="colour-code-item">white / rgb(255, 255, 255) / #FFFFFF</div>
+          <div class="colour-code-item">taupe / rgb(185,149,132) / #B99584</div>
+          <div class="colour-code-item">roseship / rgb(116,111,105) / #A86F69</div>
+        </div>
+
+      </section>
+
+    </section>
+
+    <!---------    SCROLL UP BUTTON     ---------->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"> <i class = "up"> </i> </button>
+
+    <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+  </body>
+</html>

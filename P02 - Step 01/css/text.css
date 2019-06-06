@@ -1,0 +1,77 @@
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+
+.main-title{
+  font-family: 'Logo', Helvetica, sans-serif;
+  font-size: 4em;
+  letter-spacing: 0.15em;
+  color: #BA9584;
+}
+
+.second-title{
+  font-family: 'Medium', Helvetica, sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.third-title{
+  font-family: 'Demi', Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.third-title-main{
+  font-family: 'Demi', Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 2em;
+}
+
+.fourth-title{
+  font-family: 'Light', Helvetica, sans-serif;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+.grid-text{
+  font-family: 'Light', Helvetica, sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.headings_divider{
+  margin-top: 3.5em;
+}
+
+.body-copy{
+  width: 50%;
+  font-family: 'Light', Helvetica, sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.01em;
+  line-height: 160%;
+}
+
+.body-copy-modified{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-family: 'Light', Helvetica, sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.01em;
+  line-height: 160%;
+}
+
+ul{
+  font-family: 'Light', Helvetica, sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 0.01em;
+  line-height: 160%;
+}
+
+ol{
+  font-family: 'Light', Helvetica, sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 0.01em;
+  line-height: 160%;
+}
