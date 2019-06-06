@@ -1,0 +1,22 @@
+
+.title-cite{
+  font-size: 3em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: 'Logo', Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.link-title:hover, .link-title:focus{
+  -webkit-text-fill-color: #111111;
+}
+
+.cite-link{
+  color: black;
+  text-decoration: none;
+}
+
+.cite-link:hover{
+  text-decoration: underline;
+}

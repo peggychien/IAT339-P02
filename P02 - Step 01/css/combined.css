@@ -1,0 +1,65 @@
+
+/*
+  COMBINED ELEMENTS -------------------
+*/
+
+
+.main-nav {
+  display: inline-block;
+  padding: 2em 3em;
+  color: #945445;
+  background-color: #FFF;
+  text-decoration: none;
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: border-color 0.5s ease-out;
+  font-family: 'Light', Helvetica, sans-serif;
+}
+
+.main-nav:hover, .main-nav:focus {
+  border-color: #916A5A;
+  border-style: solid;
+}
+
+
+.main-nav-title {
+  display: inline-block;
+  font-size: 2em;
+  padding: 2em 3em;
+  color: #BA9584;
+  background-color: #FFF;
+  letter-spacing: 0.15em;
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+  font-family: 'Logo', Helvetica, sans-serif;
+}
+
+.main-nav-title:hover, .main-nav-title:focus {
+  color: #916A5A;
+}
+
+.product{
+  display: flex;
+}
+
+.product-img{
+  width: 100%;
+}
+
+.half{
+  width: 50%;
+  padding: 1.5em;
+}
+
+.product-description{
+  text-align: left;
+  padding: 6em;
+  padding-top: 8em;
+}
+
+.star-rating{
+  width: 15px;
+}

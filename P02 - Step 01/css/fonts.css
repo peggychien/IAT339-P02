@@ -1,0 +1,29 @@
+@font-face{
+    font-family: 'Mono';
+    src: url("../fonts/Maison Neue Mono.otf");
+}
+
+@font-face{
+    font-family: 'Medium';
+    src: url("../fonts/Maison Neue Medium.otf");
+}
+
+@font-face{
+    font-family: 'Demi';
+    src: url("../fonts/Maison Neue Demi.otf");
+}
+
+@font-face{
+    font-family: 'Light';
+    src: url("../fonts/Maison Neue Light.otf");
+}
+
+@font-face{
+    font-family: 'Medium Italic';
+    src: url("../fonts/Maison Neue Medium Italic.otf");
+}
+
+@font-face{
+    font-family: 'Logo';
+    src: url("../fonts/Agne.otf");
+}
