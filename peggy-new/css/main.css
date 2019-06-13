@@ -96,7 +96,7 @@ a:hover, a:active, a:focus {
 	margin-right: 2rem;
 }
 
-input[type=text] {
+#search-input, input[type=text] {
 	border: none;
 	box-sizing: border-box;
 	height: 2rem;
@@ -109,7 +109,7 @@ input[type=text] {
 	color: rgb(195, 102, 41);
 }
 
-input:focus {
+#search-input:focus {
 	outline: none;
 }
 
@@ -167,10 +167,53 @@ input:focus {
 	padding: 2rem;
 	line-height: 2rem;
 	margin-top: 10rem;
+	margin-left: 3rem;
 }
 
 .wrapper-3-img {
 	flex: 1 1 auto;
   	margin: 2rem;
+}
+
+
+
+/* contact html */
+
+#center-header {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+#address-line {
+	width: 45%;
+	line-height: 1.25rem;
+}
+
+.contact-container {
+	display: flex;
+	margin-top: 3rem;
+}
+
+.contact-map {
+	flex: 1 1 auto;
+	margin-left: 3rem;
+}
+
+.contact-info {
+	flex: 1 1 auto;
+}
+
+.input-field-wrapper {
+	display: flex;
+	text-align: center;
+}
+
+.input-field-item {
+	flex: 1 1 auto;
+}
+
+input[type=input] {
+	font-family: 'Light', sans-serif;
+	width: 50%;
 }
 
