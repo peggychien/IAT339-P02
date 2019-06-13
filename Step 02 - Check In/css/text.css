@@ -1,0 +1,44 @@
+h1{
+  font-family: 'Logo', Helvetica, sans-serif;
+  font-size: 4em;
+  letter-spacing: 0.15em;
+  color: #BB432B;
+}
+
+h2{
+  font-family: 'Medium', Helvetica, sans-serif;
+  font-size: 1.4em;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #BB432B;
+}
+
+h3{
+  font-family: 'Demi', Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+h4{
+  font-family: 'Demi', Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.7em;
+}
+
+h5{
+  font-family: 'Light', Helvetica, sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: 'Light', Helvetica, sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.01em;
+  line-height: 160%;
+}
+
+#product-body{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}

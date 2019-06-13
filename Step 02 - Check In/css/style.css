@@ -1,0 +1,284 @@
+/* ------------- NAVIGATION BAR ---------------  */
+
+html, body{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  background-color: #F7F1EB;
+}
+
+a{
+  text-decoration: none;
+  color:  #C36629;
+}
+
+.nav{
+  display: flex;
+  width: 100%;
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Medium', Helvetica, sans-serif;
+}
+
+
+.nav-item {
+  font-size: 1.1em;
+  padding: 2em 2em;
+  margin: 0 2em;;
+  border-style: solid;
+  border-width: thin;
+  border-color: transparent;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: border-color 0.5s ease-out;
+  font-family: 'Medium', Helvetica, sans-serif;
+}
+
+.nav-item:hover, .nav-item:focus {
+  border-color: #C36629;
+  border-style: solid;
+}
+
+#logo{
+  font-family: 'Logo', Times, serif;
+  font-size: 3em;
+  color: #BB432B;
+}
+
+
+/* ------------- PROMO IMAGE ------------*/
+.promo-img{
+  width: 100%;
+  height: 32em;
+  background-color: #C36629;
+  margin-bottom: 4em;
+}
+
+
+/* -------------- FEATURED PRODUCTS -----------*/
+*{
+  box-sizing: border-box;
+}
+.flex-grid {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 30%;
+  margin: 0 0 20px 0;
+}
+
+.flex-grid-1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+  margin: 0 0 20px 0;
+}
+
+
+.flex-grid .col {
+  flex: 1;
+}
+
+.feat-product-img{
+  width: 25em;
+  margin: 1em;
+  display:inline-block;
+}
+
+.col{
+  padding: 20px;
+}
+
+
+
+/* -------------- PRODUCTS -----------*/
+
+.products{
+  display: flex;
+}
+
+.side-bar{
+  display: block;
+  width: 25%;
+  margin-top: 1em;
+  margin-left: 7em;
+  font-family: 'Medium', Helvetica, sans-serif;
+}
+
+.all-products{
+  width: 75%;
+}
+
+@media screen and (max-width: 40em) {
+  .products{
+    display: block;
+  }
+}
+
+
+/* ------------- PRODUCT DESCRIPTION -------------*/
+.product{
+  display: flex;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.product-img{
+  width: 100%;
+}
+
+.half{
+  width: 50%;
+  padding: 1.5em;
+}
+
+.product-description{
+  text-align: left;
+  padding: 6em;
+  padding-top: 10em;
+}
+
+.stars{
+  display: flex;
+}
+
+#reviews-num{
+  line-height: 0%;
+  padding-left: 1em;
+}
+
+.star-rating{
+  width: 1em;
+  height: 1em;
+}
+
+@media screen and (max-width: 70em) {
+  .product-description{
+    padding-top: 2em;
+    padding: 2em 4em 4em 4em;
+  }
+}
+
+@media screen and (max-width: 57em) {
+  .product{
+    display: block;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  .half{
+    width: 100%;
+  }
+
+  .product-img{
+    padding: 2em;
+  }
+
+  .product-description{
+    padding-top: 0em;
+  }
+}
+
+/* ---------------- REVIEWS --------------*/
+.reviews{
+  margin-top: 6em;
+}
+
+/* ---------------- REVIEWS INPUT --------------*/
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: 'Light', Helvetica, sans-serif;
+}
+
+#rev-input{
+  padding-bottom: 2em;
+}
+
+
+/* ------------------ MAIN BUTTON ------------- */
+.button {
+  display: inline-block;
+  padding: 1em 4.5em;
+  color: #C36629;
+  border-style: solid;
+  border-width: thin;
+  border-color: #C36629;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.2s ease-out;
+  font-family: 'Demi', Helvetica, sans-serif;
+}
+
+.button:hover, .button:focus {
+  background-color: #C36629;
+  color: white;
+}
+
+
+/* ------------------- SHOPPING CART ---------------- */
+.shopping-cart{
+  display: flex;
+}
+
+.cart-1{
+  display: flex;
+  width: 65%;
+  height: 15em;
+  margin-left: 5em;
+  margin-right: 5em;
+  border-color: #C36629;
+  border-style: solid;
+  border-width: thin;
+}
+
+#checkout-img{
+  width: 15em;
+  height: 15em;
+}
+
+#checkout-descr{
+  padding-left: 1em;
+  padding-top: 1em;
+  font-size: 1em;
+}
+
+.product-checkout{
+  display: inline-block;
+}
+
+#exit{
+  float: right;
+  font-size: 1.5em;
+  font-family: 'Medium', Helvetica, sans-serif;
+}
+
+#checkout-price{
+  padding-left: 1em;
+}
+
+.cart-2{
+  width: 35%;
+  margin-right: 5em;
+  border-color: #C36629;
+  border-style: solid;
+  border-width: thin;
+}
+
+select {
+  width: 30%;
+  margin-left: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.order-info{
+  display: flex;
+}
