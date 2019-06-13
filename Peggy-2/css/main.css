@@ -1,0 +1,176 @@
+/* references 
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_placeholder
+https://www.w3schools.com/css/css_form.asp
+
+*/
+
+body {
+	background-color: rgb(247, 241, 235);
+}
+
+h1 {
+	font-family: 'Medium', sans-serif;
+}
+
+h2 {
+	font-family: 'Demi', sans-serif;
+}
+
+h3 {
+	font-family: 'Demi', sans-serif;
+}
+
+p {
+	font-family: 'Light', sans-serif;
+}
+
+hr {
+	height: 1px;
+  	background-color: rgb(195, 102, 41);
+  	border: none;
+  	margin-top: 3rem;
+}
+
+a {
+	font-family: 'Light', sans-serif;
+	text-decoration: none;
+	color: rgb(187, 67, 43);
+	transition: color 0.5s;
+}
+
+a:hover, a:active, a:focus {
+	color: rgba(187, 67, 43, 0.5);
+}
+
+
+/* Honesty :: Confirmation */
+
+.backtoshop {
+	padding: 1rem 1.5rem;
+	width: 100%;
+	margin-top: 2rem;
+	border: none;
+	color: rgb(195, 102, 41);
+	letter-spacing: 0.12rem;
+	border: solid 1px rgb(195, 102, 41);
+	background-color: rgb(247, 241, 235);
+	transition: color .5s ease-out;
+	transition: background-color .5s;
+}
+
+.backtoshop:hover, .backtoshop:focus, .backtoshop:active {
+	color: rgb(255, 255, 255);
+	background-color: rgb(195, 102, 41);
+}
+
+.main-container {
+	margin-top: 5rem;
+	text-align: center;
+}
+
+.text-container {
+	display: inline-block;
+	width: 38%;
+	line-height: 2rem;
+	text-align: left;
+}
+
+#page-title {
+	display: block;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.footer {
+	text-align: center;
+}
+
+.footer-nav {
+	margin-top: 1.5rem;
+	widows: 100%;
+}
+
+.footer-nav-item {
+	letter-spacing: 0.08rem;
+	margin-right: 2rem;
+}
+
+input[type=text] {
+	border: none;
+	box-sizing: border-box;
+	height: 2rem;
+	width: 15rem;
+	background-color: transparent;
+	border-bottom: solid 1px rgb(195, 102, 41);
+}
+
+::placeholder {
+	color: rgb(195, 102, 41);
+}
+
+input:focus {
+	outline: none;
+}
+
+
+/* Honesty :: Our Story */
+
+.landingimg-container {
+	width: 100%;
+	height: 25rem;
+	background-color: rgba(195, 102, 41, 0.5);
+}
+
+/* grid structure */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.wrapper-about-1 {
+	display: flex;
+}
+
+.wrapper-1-text {
+	flex: 1 1 auto;
+	padding: 2rem;
+	line-height: 2rem;
+	margin-top: 10rem;
+}
+
+.wrapper-1-img {
+	flex: 1 1 auto;
+  	margin: 2rem;
+}
+
+.wrapper-about-2 {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.wrapper-text-2 {
+	display: inline-block;
+	text-align: left;
+	width: 50%;
+	line-height: 2rem;
+}
+
+.wrapper-about-3 {
+	display: flex;
+}
+
+.wrapper-3-text {
+	flex: 1 1 auto;
+	padding: 2rem;
+	line-height: 2rem;
+	margin-top: 10rem;
+}
+
+.wrapper-3-img {
+	flex: 1 1 auto;
+  	margin: 2rem;
+}
+
