@@ -1,0 +1,671 @@
+
+html, body{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  background-color: #F7F1EB;
+}
+
+/* ------------- NAVIGATION BAR ---------------  */
+
+.nav{
+  display: flex;
+  width: 100%;
+  height: 20%;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Medium', Helvetica, sans-serif;
+}
+
+
+.nav-item {
+  font-size: 1.1em;
+  padding: 2em 2em;
+  margin: 0 2em;;
+  border-style: solid;
+  border-width: thin;
+  border-color: transparent;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: border-color 0.5s ease-out;
+  font-family: 'Medium', Helvetica, sans-serif;
+}
+
+.nav-item:hover, .nav-item:focus {
+  border-color: #C36629;
+  border-style: solid;
+}
+
+#logo{
+  font-family: 'Logo', Times, serif;
+  font-size: 3em;
+  color: #BB432B;
+}
+
+
+.mySlides {
+  display:none;
+}
+
+/* -------------- FEATURED PRODUCTS -----------*/
+*{
+  box-sizing: border-box;
+}
+.flex-grid {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 30%;
+  margin: 0 0 20px 0;
+}
+
+.flex-grid-1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+  margin: 0 0 20px 0;
+}
+
+
+.flex-grid .col {
+  flex: 1;
+}
+
+.feat-product-img{
+  width: 25em;
+  margin: 1em;
+  display:inline-block;
+}
+
+.col{
+  padding: 20px;
+}
+
+
+.grid-01{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.box-01{
+ width: 33.3%;
+ padding: 2em;
+}
+
+.img-01{
+  width: 100%;
+}
+
+.featured-prod{
+  margin-top: 4em;
+}
+
+
+/* -------------- PRODUCTS -----------*/
+
+.products{
+  display: flex;
+}
+
+.side-bar{
+  display: block;
+  width: 25%;
+  margin-top: 1em;
+  margin-left: 7em;
+  font-family: 'Medium', Helvetica, sans-serif;
+}
+
+.all-products{
+  width: 75%;
+}
+
+@media screen and (max-width: 40em) {
+  .products{
+    display: block;
+  }
+}
+
+
+/* ------------- PRODUCT DESCRIPTION -------------*/
+.product{
+  display: flex;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.product-img{
+  width: 100%;
+}
+
+.half{
+  width: 50%;
+  padding: 1.5em;
+}
+
+.product-description{
+  text-align: left;
+  padding: 6em;
+  padding-top: 10em;
+}
+
+.stars{
+  display: flex;
+}
+
+#reviews-num{
+  line-height: 0%;
+  padding-left: 1em;
+}
+
+.star-rating{
+  width: 1em;
+  height: 1em;
+}
+
+@media screen and (max-width: 70em) {
+  .product-description{
+    padding-top: 2em;
+    padding: 2em 4em 4em 4em;
+  }
+}
+
+@media screen and (max-width: 57em) {
+  .product{
+    display: block;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  .half{
+    width: 100%;
+  }
+
+  .product-img{
+    padding: 2em;
+  }
+
+  .product-description{
+    padding-top: 0em;
+  }
+}
+
+/* ---------------- REVIEWS --------------*/
+.reviews{
+  margin-top: 4em;
+  margin-left: 6em;
+  width: 80%;
+}
+
+/* ---------------- REVIEWS INPUT --------------*/
+#rev-input input[type=text] {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: 'Light', Helvetica, sans-serif;
+}
+
+#rev-input{
+  padding-bottom: 2em;
+  display: block;
+}
+
+/* ---------------------------- SHOPPING CART ---------------------- */
+.shopping-cart{
+  display: flex;
+}
+
+.cart-1{
+  display: flex;
+  width: 65%;
+  height: 15em;
+  margin-left: 5em;
+  margin-right: 5em;
+  border-color: #C36629;
+  border-style: solid;
+  border-width: thin;
+}
+
+#checkout-img{
+  width: 15em;
+  height: 15em;
+}
+
+#checkout-descr{
+  padding-top: 1em;
+  font-size: 1em;
+  text-align: center;
+}
+
+#checkout-description{
+  padding-top: 1em;
+  font-size: 1em;
+  padding-left: 1em;
+}
+
+.product-checkout{
+  display: inline-block;
+  width: 100%;
+}
+
+#exit{
+  float: right;
+  font-size: 1.5em;
+  padding-right: 1em;
+  font-family: 'Medium', Helvetica, sans-serif;
+}
+
+#checkout-price{
+  padding-left: 1em;
+}
+
+.cart-2{
+  width: 35%;
+  margin-right: 5em;
+  border-color: #C36629;
+  border-style: solid;
+  border-width: thin;
+}
+
+select {
+  width: 30%;
+  margin-left: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.order-info{
+  display: flex;
+}
+
+.six{
+  width: 66%;
+  padding: 1.5em;
+}
+
+.three{
+  width: 33%;
+  padding: 1.5em;
+}
+
+#continue-checkout{
+  text-align: center;
+}
+
+
+
+
+/* -------------------------- CONTACT INFO ------------------- */
+
+#center-header {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+#address-line {
+	width: 45%;
+	line-height: 1.25rem;
+}
+
+.contact-container {
+	display: flex;
+	margin-top: 3rem;
+}
+
+.contact-map {
+	flex: 1 1 auto;
+	margin-left: 3rem;
+}
+
+.contact-info {
+	flex: 1 1 auto;
+}
+
+.input-field-wrapper {
+	display: flex;
+/*	text-align: center;*/
+}
+
+.input-field-item {
+	flex: 1 1 auto;
+}
+
+input {
+	font-family: 'Light', sans-serif;
+}
+
+label {
+	font-family: 'Light', sans-serif;
+}
+
+input[type=input] {
+	width: 100%;
+  	padding: 0.85rem;
+  	margin-top: 0.5rem;
+  	margin-bottom: 1.5rem;
+  	box-sizing: border-box;
+  	outline: none;
+}
+
+textarea {
+  width: 100%;
+  height: 7.5rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 1px solid rgba(200, 200, 200, 0.5);
+  background-color: rgb(255, 255, 255);
+  margin-top: 0.5rem;
+  outline: none;
+  resize: none;
+}
+
+.request {
+	padding: 1rem 1.5rem;
+	width: 100%;
+	margin-top: 2rem;
+	border: none;
+	color: rgb(195, 102, 41);
+	letter-spacing: 0.12rem;
+	border: solid 1px rgb(195, 102, 41);
+	background-color: rgb(247, 241, 235);
+	transition: color .5s ease-out;
+	transition: background-color .5s;
+}
+
+.request:hover, .request:focus, .request:active {
+	color: rgb(255, 255, 255);
+	background-color: rgb(195, 102, 41);
+}
+
+
+
+
+/* ---------------------------- ABOUT ------------------------------ */
+
+.landingimg-container {
+	width: 100%;
+	height: 25rem;
+	background-color: rgba(195, 102, 41, 0.5);
+}
+
+/* grid structure */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.wrapper-about-1 {
+	display: flex;
+}
+
+.wrapper-1-text {
+	flex: 1 1 auto;
+	padding: 2rem;
+	line-height: 2rem;
+	margin-top: 10rem;
+}
+
+.wrapper-1-img {
+	flex: 1 1 auto;
+  margin: 2rem;
+}
+
+.wrapper-about-2 {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.wrapper-text-2 {
+	display: inline-block;
+	text-align: left;
+	width: 50%;
+	line-height: 2rem;
+}
+
+.wrapper-about-3 {
+	display: flex;
+}
+
+.wrapper-3-text {
+	flex: 1 1 auto;
+	padding: 2rem;
+	line-height: 2rem;
+	margin-top: 10rem;
+}
+
+.wrapper-3-img {
+	flex: 1 1 auto;
+  	margin: 2rem;
+}
+
+
+
+
+/* ----------------------------  CHECKOUT PAGE  ---------------------------------*/
+
+/* checkout html */
+
+#goback-icon {
+	width: 2.5rem;
+	height: auto;
+	margin: 2rem;
+}
+
+/* container for page header, incl. arrow img + checkout */
+.header-wrapper {
+	display: flex;
+	margin-top: 3rem;
+}
+
+.header-wrapper-item {
+	flex: 1 1 auto;
+}
+
+.header-wrapper-item h1 {
+	text-align: center;
+}
+
+.header-wrapper-space {
+	flex: 3 1 auto;
+}
+
+/* container for subheadings, incl. h1 tag 'shipping address' + line below */
+.subheader-wrapper {
+	display: flex;
+	margin-top: 1rem;
+}
+
+.subheader-emptyspace {
+	flex: 1 1 auto;
+}
+
+.subheader-content {
+	flex: 4 1 auto;
+}
+
+/* container for input fields */
+.input-fields-wrapper {
+	display: flex;
+	margin-top: 1rem;
+}
+
+.input-space {
+	flex: 1.25 1 auto;
+}
+
+.input-item {
+	flex: 2 1 auto;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.input-fields-wrapper .input-item:nth-of-type(even) {
+	margin-right: 2.5rem;
+}
+
+/* select dropdown menu */
+.custom-select-container {
+	font-size: 0.75rem;
+  	padding: 0.625rem 0.5rem;
+  	background: rgb(255, 255, 255);
+  	border: 1px solid rgba(195, 102, 41, 0.5);
+ 	overflow: hidden;
+  	position: relative;
+}
+
+.custom-select-container .custom-select-dropdown{
+  width: 7rem;
+  background-position:80% center;
+}
+
+.custom-select-container .custom-select-dropdown select {
+	 border: 0;
+	 padding: 0;
+	 border-radius: 0;
+	 color: rgb(195, 102, 41);
+	 width: 400%;
+	 position: relative;
+	 z-index: 10;
+	 outline: none;
+  }
+
+.select-fields-wrapper {
+	margin-top: 1.5rem;
+	display: flex;
+}
+
+.select-space {
+	flex: 1.25 1 auto;
+}
+
+.select-item {
+	flex: 2 1 auto;
+}
+
+.select-fields-wrapper .select-item:nth-of-type(even) {
+	margin-right: 2.5rem;
+}
+
+/* subheader- payment section only modification: increase margin-top*/
+.subheader-wrapper-payment {
+	margin-top: 3rem;
+	display: flex;
+}
+
+
+/* expiration date + security code section */
+.card-select-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-select-space {
+	flex: 1 1 auto;
+}
+
+.payment-select-item {
+	flex: 0.5 1 auto;
+}
+
+.input-code {
+	flex: 2 1 auto;
+}
+
+.payment-select-container {
+	font-size: 0.75rem;
+  	padding: 0.625rem 0.5rem;
+  	background: rgb(255, 255, 255);
+  	border: 1px solid rgba(195, 102, 41, 0.5);
+ 	overflow: hidden;
+ 	margin-top: 0.5rem;
+ 	margin-right: 2.5rem;
+
+}
+
+.payment-select-container .payment-select-dropdown {
+	width: 4rem;
+  	background-position: 80% center;
+}
+
+.payment-select-container .payment-select-dropdown select {
+	border: 0;
+	padding: 0;
+	border-radius: 0;
+	color: rgb(195, 102, 41);
+	width: 250%;
+	position: relative;
+	z-index: 10;
+	outline: none;
+}
+
+/* place order section, incl. line + 'place order' button */
+.placeorder-wrapper {
+	display: flex;
+}
+
+.placeorder-emptyspace {
+	flex: 1.15 1 auto;
+}
+
+.placeorder-content {
+	flex: 4 1 auto;
+}
+
+#placeorder {
+	padding: 0.75rem 4rem;
+	float: right;
+	background-color: transparent;
+	font-family: 'Light', sans-serif;
+	letter-spacing: 0.02rem;
+	font-size: 1rem;
+	color: rgb(195, 102, 41);
+	border: solid 1px rgb(195, 102, 41);
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	transition: background-color 0.5s;
+	transition: color 0.5s;
+}
+
+#placeorder:hover, #placeorder:focus, #placeorder:active {
+	color: rgb(247, 241, 235);
+	background-color: rgb(195, 102, 41);
+}
+
+
+
+/* ------------------------- Confirmation ------------------- */
+
+.backtoshop {
+	padding: 1rem 1.5rem;
+	width: 100%;
+	margin-top: 2rem;
+  text-align: center;
+}
+
+.main-container {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.text-container {
+	display: inline-block;
+	width: 38%;
+	line-height: 2rem;
+	text-align: left;
+}
+
+#page-title {
+	display: block;
+	text-align: center;
+	margin-bottom: 3rem;
+}

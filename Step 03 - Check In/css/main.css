@@ -211,6 +211,7 @@ input:focus {
 
 /* ------------ CONTACT INFO ----------- */
 /* contact html */
+/* contact html */
 
 #center-header {
 	margin-top: 3rem;
@@ -289,5 +290,196 @@ textarea {
 
 .request:hover, .request:focus, .request:active {
 	color: rgb(255, 255, 255);
+	background-color: rgb(195, 102, 41);
+}
+
+
+/* ----------------------  CHECKOUT PAGE  --------------*/
+
+/* checkout html */
+
+#goback-icon {
+	width: 2.5rem;
+	height: auto;
+	margin: 2rem;
+}
+
+/* container for page header, incl. arrow img + checkout */
+.header-wrapper {
+	display: flex;
+	margin-top: 3rem;
+}
+
+.header-wrapper-item {
+	flex: 1 1 auto;
+}
+
+.header-wrapper-item h1 {
+	text-align: center;
+}
+
+.header-wrapper-space {
+	flex: 3 1 auto;
+}
+
+/* container for subheadings, incl. h1 tag 'shipping address' + line below */
+.subheader-wrapper {
+	display: flex;
+	margin-top: 1rem;
+}
+
+.subheader-emptyspace {
+	flex: 1 1 auto;
+}
+
+.subheader-content {
+	flex: 4 1 auto;
+}
+
+/* container for input fields */
+.input-fields-wrapper {
+	display: flex;
+	margin-top: 1rem;
+}
+
+.input-space {
+	flex: 1.25 1 auto;
+}
+
+.input-item {
+	flex: 2 1 auto;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.input-fields-wrapper .input-item:nth-of-type(even) {
+	margin-right: 2.5rem;
+}
+
+/* select dropdown menu */
+.custom-select-container {
+	font-size: 0.75rem;
+  	padding: 0.625rem 0.5rem;
+  	background: rgb(255, 255, 255);
+  	border: 1px solid rgba(195, 102, 41, 0.5);
+ 	overflow: hidden;
+  	position: relative;
+}
+
+.custom-select-container .custom-select-dropdown{
+  width: 7rem;
+  background-position:80% center;
+}
+
+.custom-select-container .custom-select-dropdown select {
+	 border: 0;
+	 padding: 0;
+	 border-radius: 0;
+	 color: rgb(195, 102, 41);
+	 width: 400%;
+	 position: relative;
+	 z-index: 10;
+	 outline: none;
+  }
+
+.select-fields-wrapper {
+	margin-top: 1.5rem;
+	display: flex;
+}
+
+.select-space {
+	flex: 1.25 1 auto;
+}
+
+.select-item {
+	flex: 2 1 auto;
+}
+
+.select-fields-wrapper .select-item:nth-of-type(even) {
+	margin-right: 2.5rem;
+}
+
+/* subheader- payment section only modification: increase margin-top*/
+.subheader-wrapper-payment {
+	margin-top: 3rem;
+	display: flex;
+}
+
+
+/* expiration date + security code section */
+.card-select-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-select-space {
+	flex: 1 1 auto;
+}
+
+.payment-select-item {
+	flex: 0.5 1 auto;
+}
+
+.input-code {
+	flex: 2 1 auto;
+}
+
+.payment-select-container {
+	font-size: 0.75rem;
+  	padding: 0.625rem 0.5rem;
+  	background: rgb(255, 255, 255);
+  	border: 1px solid rgba(195, 102, 41, 0.5);
+ 	overflow: hidden;
+ 	margin-top: 0.5rem;
+ 	margin-right: 2.5rem;
+
+}
+
+.payment-select-container .payment-select-dropdown {
+	width: 4rem;
+  	background-position: 80% center;
+}
+
+.payment-select-container .payment-select-dropdown select {
+	border: 0;
+	padding: 0;
+	border-radius: 0;
+	color: rgb(195, 102, 41);
+	width: 250%;
+	position: relative;
+	z-index: 10;
+	outline: none;
+}
+
+/* place order section, incl. line + 'place order' button */
+.placeorder-wrapper {
+	display: flex;
+}
+
+.placeorder-emptyspace {
+	flex: 1.15 1 auto;
+}
+
+.placeorder-content {
+	flex: 4 1 auto;
+}
+
+#placeorder {
+	padding: 0.75rem 4rem;
+	float: right;
+	background-color: transparent;
+	font-family: 'Light', sans-serif;
+	letter-spacing: 0.02rem;
+	font-size: 1rem;
+	color: rgb(195, 102, 41);
+	border: solid 1px rgb(195, 102, 41);
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	transition: background-color 0.5s;
+	transition: color 0.5s;
+}
+
+#placeorder:hover, #placeorder:focus, #placeorder:active {
+	color: rgb(247, 241, 235);
 	background-color: rgb(195, 102, 41);
 }

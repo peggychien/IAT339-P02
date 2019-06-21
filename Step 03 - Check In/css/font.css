@@ -1,0 +1,24 @@
+@font-face{
+    font-family: 'Medium';
+    src: url("../fonts/Medium.otf");
+}
+
+@font-face{
+    font-family: 'Demi';
+    src: url("../fonts/Demi.otf");
+}
+
+@font-face{
+    font-family: 'Light';
+    src: url("../fonts/Light.otf");
+}
+
+@font-face{
+    font-family: 'Medium Italic';
+    src: url("../fonts/Italic.otf");
+}
+
+@font-face{
+    font-family: 'Logo';
+    src: url("../fonts/Agne.otf");
+}

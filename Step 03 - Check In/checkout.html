@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Honesty - Checkout</title>
+
+	<!-- link for styling css -->
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/font.css" rel="stylesheet">
+	<link href="css/grid.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<!--------------- NAVIGATION BAR --------------->
+  <div class="nav">
+        <a href="all-products.html" class="nav-item">Products</a>
+        <a href="about.html" class="nav-item">About</a>
+        <a href="index.html" id="logo">honesty</a>
+        <a href="contact.html" class="nav-item">Contact</a>
+        <a href="shopping-bag.html" class="nav-item">Shopping Cart</a>
+  </div>
+
+
+		<!-- div regarding header, incl. arrows + checkout -->
+		<div class="header-wrapper">
+			<div class="header-wrapper-item"></div>
+			<div class="header-wrapper-item">
+				<a href="#"><img id="goback-icon" src="img/goback-icon.png" alt="go back button"></a>
+			</div>
+
+			<div class="header-wrapper-item">
+				<h1>Checkout</h1>
+			</div>
+			<div class="header-wrapper-space"></div>
+		</div>
+
+
+		<!-- SHIPPING SECTION -->
+		<section>
+
+			<!-- div regarding 'Shipping Address' header + line -->
+			<div class="subheader-wrapper">
+				<div class="subheader-emptyspace"></div>
+				<div class="subheader-content">
+					<h3>Shipping Address</h3>
+					<hr>
+				</div>
+				<div class="subheader-emptyspace"></div>
+			</div>
+
+			<!-- div regarding first row of input fields, incl. first name + last name -->
+			<div class="input-fields-wrapper">
+				<div class="input-space"></div>
+				<div class="input-item">
+					<input type="input" id="comment" name="comment" placeholder="First Name">
+				</div>
+				<div class="input-item">
+					<input type="input" id="comment" name="comment" placeholder="Last Name">
+				</div>
+				<div class="input-space"></div>
+			</div>
+
+			<!-- div regarding second row of input fields, incl. address + company -->
+			<div class="input-fields-wrapper">
+				<div class="input-space"></div>
+				<div class="input-item">
+					<input type="input" id="comment" name="comment" placeholder="Street Address">
+				</div>
+
+				<div class="input-item">
+					<input type="input" id="comment" name="comment" placeholder="Company (optional)">
+				</div>
+				<div class="input-space"></div>
+			</div>
+
+			<!-- div regarding third row of input fields, incl. city + zip -->
+			<div class="input-fields-wrapper">
+				<div class="input-space"></div>
+				<div class="input-item">
+					<input type="input" id="comment" name="comment" placeholder="City">
+				</div>
+
+				<div class="input-item">
+					<input type="input" id="comment" name="comment" placeholder="ZIP or Postal Code">
+				</div>
+				<div class="input-space"></div>
+			</div>
+
+			<!-- div regarding fourth row of select options, incl. country + state/province -->
+			<div class="select-fields-wrapper">
+				<div class="select-space"></div>
+				<div class="select-item">
+					<!-- <input type="input" id="comment" name="comment" placeholder="Country"> -->
+						<div class="custom-select-container">
+							<div class="custom-select-dropdown">
+								<select id="country" name="countries">
+									<option value="bc">Korea</option>
+									<option value="ab">Canada</option>
+									<option value="mb">United States</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+					<div class="select-item">
+					<!-- <input type="input" id="comment" name="comment" placeholder="State / Province"> -->
+					<div class="custom-select-container">
+						<div class="custom-select-dropdown">
+							<select id="province" name="provinces">
+								<option value="bc">British Columbia</option>
+								<option value="ab">Alberta</option>
+								<option value="mb">Manitoba</option>
+								<option value="on">Ontario</option>
+								<option value="qc">Quebec</option>
+								<option value="sk">Saskatchewan</option>
+								<option value="sk">Prince Edward Island</option>
+								<option value="sk">Nova Scotia</option>
+								<option value="sk">Newfoundland and Labrador</option>
+								<option value="sk">New Brunswick</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="select-space"></div>
+			</div>
+
+		</section>
+
+
+		<!-- PAYMENT SECTION -->
+		<section>
+
+			<!-- subheader: payment method section -->
+			<div class="subheader-wrapper-payment">
+				<div class="subheader-emptyspace"></div>
+				<div class="subheader-content">
+					<h3>Payment Method</h3>
+					<hr>
+				</div>
+				<div class="subheader-emptyspace"></div>
+			</div>
+
+			<div class="input-fields-wrapper">
+				<div class="input-space"></div>
+				<div class="input-item">
+					<input type="input" id="comment" name="comment" placeholder="Card Number">
+				</div>
+
+				<div class="input-item">
+					<input type="input" id="comment" name="comment" placeholder="Cardholder's Name">
+				</div>
+				<div class="input-space"></div>
+			</div>
+
+
+			<div class="card-select-wrapper">
+
+				<div class="card-select-space"></div> <!-- space between edge of the page and content-->
+
+				<div class="payment-select-item">
+					<div class="payment-select-container">
+						<div class="payment-select-dropdown">
+							<select id="month" name="months">
+								<option value="mo">Month</option>
+								<option value="jan">January</option>
+								<option value="feb">February</option>
+								<option value="mar">March</option>
+								<option value="apr">April</option>
+								<option value="may">May</option>
+								<option value="jun">June</option>
+								<option value="jul">July</option>
+								<option value="aug">August</option>
+								<option value="sep">September</option>
+								<option value="oct">October</option>
+								<option value="nov">November</option>
+								<option value="dec">December</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<div class="payment-select-item">
+					<div class="payment-select-container">
+						<div class="payment-select-dropdown">
+							<select id="year" name="years">
+								<option value="yr">Year</option>
+								<option value="19">2019</option>
+								<option value="20">2020</option>
+								<option value="21">2021</option>
+								<option value="22">2022</option>
+								<option value="23">2023</option>
+								<option value="24">2024</option>
+								<option value="25">2025</option>
+								<option value="26">2026</option>
+								<option value="27">2027</option>
+								<option value="28">2028</option>
+								<option value="29">2029</option>
+								<option value="30">2030</option>
+							</select>
+						</div>
+					</div>
+				</div> <!-- closing the 'payment-select-item' tag of this row for expiration date -->
+
+
+				<div class="input-code">
+					<input type="input" id="comment" name="comment" placeholder="Security Code">
+				</div>
+
+				<div class="card-select-space"></div> <!-- space between edge of the page and content-->
+
+			</div> <!-- closing the wrapper tag of this section for card payment -->
+
+		</section>
+
+
+		<section>
+
+			<div class="placeorder-wrapper">
+				<div class="placeorder-emptyspace"></div>
+				<div class="placeorder-content">
+					<hr>
+					<button id="placeorder">PLACE ORDER</button>
+				</div>
+				<div class="placeorder-emptyspace"></div>
+			</div>
+
+		</section>
+
+</body>
+
+</html>
