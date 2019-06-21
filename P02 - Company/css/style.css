@@ -669,3 +669,110 @@ textarea {
 	text-align: center;
 	margin-bottom: 3rem;
 }
+
+
+
+/*---------------------------- Honesty :: Our Story ----------------------------*/
+
+/* grid structure */
+
+/**, *::before, *::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}*/
+
+
+.wrapper-cover-container {
+	position: relative;
+	text-align: center;
+}
+
+.wrapper-img {
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	opacity: 0.75;
+}
+
+.about-header {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-60%, -50%);
+	font-family: 'Demi', sans-serif;
+	font-size: 3rem;
+	color: rgb(187, 67, 43);
+	letter-spacing: 0.12rem;
+}
+
+.intro-container {
+	margin: 5rem;
+	display: flex;
+}
+
+#about-img-2 {
+	width: 75%;
+}
+
+.intro-img {
+	flex: 50%;
+}
+
+.intro-paragraph {
+	flex: 50%;
+	font-family: 'Light', sans-serif;
+	text-align: left;
+	font-size: 0.95rem;
+	line-height: 2.15rem;
+}
+
+.separation-line {
+	width: 78.5rem;
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+.about-paragraph2-container {
+	text-align: center;
+	margin-top: 5rem;
+}
+
+#history-subhead {
+	font-family: 'Medium', sans-serif;
+	letter-spacing: 0.12rem;
+	font-size: 1rem;
+}
+
+.history-paragraph {
+	display: inline-block;
+	text-align: left;
+	width: 65%;
+	line-height: 2.15rem;
+	margin-bottom: 4rem;
+}
+
+.teastory-container {
+	display: flex;
+	margin: 5rem;
+}
+
+.teastory-paragraph {
+	flex: 1 1 auto;
+	margin-right: 2rem;
+	line-height: 2.15rem;
+}
+
+.teastory-img {
+	flex: 1 1 auto;
+}
+
+#teastory-subhead {
+	font-family: 'Medium', sans-serif;
+	letter-spacing: 0.12rem;
+	font-size: 1rem;
+	text-align: center;
+	margin-top: 5rem;
+}
