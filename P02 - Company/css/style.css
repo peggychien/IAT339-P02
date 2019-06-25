@@ -820,3 +820,87 @@ textarea {
   margin-left: 5em;
   margin-right: 5em;
 }
+
+
+/*--------------------- FAQ	------------------------*/
+
+#faq-title {
+	color: rgb(150, 150, 150);
+	font-size: 1rem;
+	letter-spacing: 0.12rem;
+	margin-left: 7rem;
+}
+
+#faq-main-header {
+	text-align: left;
+	margin-left: 7rem;
+}
+
+.faq-wrapper {
+	display: flex;
+}
+
+.faq-subheadings {
+	margin-left: 7rem;
+	flex: 2 1 25%;
+}
+
+.faq-content {
+	flex: 3 1 75%;
+	margin-top: 3rem;
+}
+
+.faqaccordion {
+	background-color: transparent;
+	width: 75%;
+	font-family: 'Medium', Helvetica, sans-serif;
+	font-size: 1.15rem;
+	padding: 1.5rem;
+	border: none;
+	outline: none;
+	transition: 0.5s;
+	cursor: pointer;
+	text-align: left;
+  	border-top: 2px solid rgb(195, 102, 41);
+}
+
+.active, .faqaccordion:hover {
+	background-color: transparent;
+}
+
+.faqaccordion:after {
+	content: '\002B';
+	color: rgba(195, 102, 41, 0.7);
+	float: right;
+	margin-left: 5rem;
+}
+
+.active:after {
+	content: "\2212";
+}
+
+.answer {
+	padding: 0 2rem;
+	width: 75%;
+	background-color: transparent;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.header-border {
+	border: 2px solid rgb(195, 102, 41);
+	width: 60%;
+	display: inline-block;
+	text-align: left;
+}
+
+#separate-faq {
+	border: 1px solid rgb(195, 102, 41);
+	width: 75%;
+	margin: 0;
+}
+
+.faq-sections {
+	margin-bottom: 2.5rem;
+}
