@@ -65,12 +65,12 @@ body{
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 40%;
+  height: 30%;
   margin: 0 0 20px 0;
 }
 
 
-.flex-grid .col {
+.flex-grid .flex-grid-1 .col {
   flex: 1;
 }
 
@@ -115,21 +115,64 @@ body{
 
 .side-bar{
   display: block;
-  width: 15%;
+  width: 30%;
   margin-top: 1em;
   margin-left: 7em;
   font-family: 'Medium', Helvetica, sans-serif;
 }
 
 .all-products{
-  width: 85%;
+  width: 70%;
 }
 
-@media screen and (max-width: 40em) {
+
+.flex-grid-products{
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: em;
+}
+
+.col-products{
+  width: 50%;
+  padding: 2em;
+}
+
+.all-products-img{
+  width: 100%;
+}
+
+@media screen and (max-width: 45em) {
   .products{
     display: block;
   }
+
+  .flex-grid-products{
+    display: block;
+  }
+
+  .col-products{
+    width: 100%;
+  }
+
+  .all-products{
+    width: 100%;
+  }
 }
+
+
+@media screen and (max-width: 60em) {
+  .side-bar{
+    width: 20%
+  }
+
+  .all-products{
+    width: 80%;
+  }
+}
+
+
 
 
 /* ------------- PRODUCT DESCRIPTION -------------*/
@@ -151,7 +194,7 @@ body{
 .product-description{
   text-align: left;
   padding: 6em;
-  padding-top: 10em;
+  padding-top: 5em;
 }
 
 .stars{
@@ -198,10 +241,34 @@ body{
 /* ---------------- REVIEWS --------------*/
 .reviews{
   margin-top: 4em;
-  margin-left: 6em;
-  width: 80%;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
+.customer-reviews{
+  margin-top: 1.5em;
+  display: flex;
+}
+
+
+.review-name{
+  width: 33%;
+  display: block;
+}
+
+.review-description{
+  width: 57%;
+  display: block;
+}
+
+.review-date{
+  width: 5%;
+}
+
+.review-header{
+  margin-top: 4.5em;
+  margin-bottom: 2em;
+}
 /* ---------------- REVIEWS INPUT --------------*/
 #rev-input input[type=text] {
   display: block;
@@ -293,6 +360,7 @@ select {
 
 .three{
   width: 33%;
+  text-align: right;
   padding: 1.5em;
 }
 
