@@ -446,30 +446,55 @@ input[type=input] {
   	border: solid 1px rgba(195, 102, 41, 0.5);
 }
 
-textarea {
-	width: 73%;
+.label-container {
+	display: flex;
+}
+
+.label-space {
+	flex: 1 1 auto;
+}
+
+.label-msg {
+	flex: 6 1 auto;
+}
+
+.textarea-wrapper {
+	display: flex;
+}
+
+.textarea-space {
+	flex: 1 1 auto;
+}
+
+.msg-area {
+	flex: 4.5 1 auto;
 	height: 7.5rem;
 	padding: 1rem;
 	box-sizing: border-box;
 	border: solid 1px rgba(195, 102, 41, 0.5);
 	background-color: rgb(255, 255, 255);
 	margin-top: .5rem;
-	margin-right: 12rem;
-	margin-left: 12rem;
 	outline: none;
 	resize: none;
 }
 
-#label-msg {
-	margin-left: 12rem;
+textarea {
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
 }
 
-.request {
+.request-button-container {
+	text-align: center;
+}
+
+.request-button {
 	padding: 1rem 1.5rem;
-	width: 73%;
 	margin-top: 2rem;
 	margin-right: 12rem;
 	margin-left: 12rem;
+	margin-bottom: 3rem;
 	border: none;
 	color: rgb(195, 102, 41);
 	letter-spacing: 0.12rem;
@@ -477,10 +502,9 @@ textarea {
 	background-color: rgb(247, 241, 235);
 	transition: color .5s ease-out;
 	transition: background-color .5s;
-	margin-bottom: 3rem;
 }
 
-.request:hover, .request:focus, .request:active {
+.request-button:hover, .request-button:focus, .request-button:active {
 	color: rgb(255, 255, 255);
 	background-color: rgb(195, 102, 41);
 	outline: none;
@@ -877,7 +901,7 @@ textarea {
 	margin-top: 5rem;
 }
 
-.request-button{
+/*.request-button{
   padding: 1rem 1.5rem;
 	margin-top: 2rem;
   width: 100%;
@@ -887,4 +911,98 @@ textarea {
 .request-button-container{
   margin-left: 5em;
   margin-right: 5em;
+}*/
+
+
+/*--------------------- FAQ	------------------------*/
+
+#faq-title {
+	color: rgb(150, 150, 150);
+	font-size: 1rem;
+	letter-spacing: 0.12rem;
+	margin-left: 7rem;
 }
+
+#faq-main-header {
+	text-align: left;
+	margin-left: 7rem;
+}
+
+.faq-wrapper {
+	display: flex;
+}
+
+.faq-subheadings {
+	margin-left: 7rem;
+	flex: 2 1 25%;
+}
+
+.faq-content {
+	flex: 3 1 75%;
+	margin-top: 3rem;
+}
+
+.faqaccordion {
+	background-color: transparent;
+	width: 75%;
+	font-family: 'Medium', Helvetica, sans-serif;
+	font-size: 1.15rem;
+	padding: 1.5rem;
+	border: none;
+	outline: none;
+	transition: 0.5s;
+	cursor: pointer;
+	text-align: left;
+  	border-top: 2px solid rgb(195, 102, 41);
+}
+
+.active, .faqaccordion:hover {
+	background-color: transparent;
+}
+
+.faqaccordion:after {
+	content: '\002B';
+	color: rgba(195, 102, 41, 0.7);
+	float: right;
+	margin-left: 5rem;
+}
+
+.active:after {
+	content: "\2212";
+}
+
+.answer {
+	padding: 0 2rem;
+	width: 75%;
+	background-color: transparent;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.header-border {
+	border: 2px solid rgb(195, 102, 41);
+	width: 60%;
+	display: inline-block;
+	text-align: left;
+}
+
+#separate-faq {
+	border: 1px solid rgb(195, 102, 41);
+	width: 75%;
+	margin: 0;
+}
+
+.faq-sections {
+	margin-bottom: 2.5rem;
+}
+
+
+/* ------------- CITATIONS -------------*/
+
+#reference-list {
+	margin-left: 7rem;
+}
+
+
+

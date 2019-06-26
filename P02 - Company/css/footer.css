@@ -41,3 +41,10 @@
 a:hover, a:active, a:focus {
 	color: rgba(187, 67, 43, 0.5);
 }
+
+hr {
+	background-color: rgb(195, 102, 41);
+	height: 1px;
+	margin-top: 3rem;
+	border: none;
+}
