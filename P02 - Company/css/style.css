@@ -3,6 +3,10 @@ html, body{
   height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   margin: 0;
   background-color: #F7F1EB;
@@ -20,10 +24,12 @@ body{
 }
 
 
+
 .nav-item {
   font-size: 1.1em;
   padding: 2em 2em;
-  margin: 0 2em;;
+  margin: 0 2em;
+  display: block;
   border-style: solid;
   border-width: thin;
   border-color: transparent;
@@ -42,7 +48,6 @@ body{
   font-size: 3em;
   color: #BB432B;
 }
-
 
 .mySlides {
   display:none;
@@ -89,8 +94,8 @@ body{
   display: flex;
   justify-content: center;
   width: 100%;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 
 .box-01{
@@ -159,19 +164,12 @@ body{
   .all-products{
     width: 100%;
   }
-}
 
-
-@media screen and (max-width: 60em) {
   .side-bar{
-    width: 20%
+    margin-left: 2em;
   }
 
-  .all-products{
-    width: 80%;
-  }
 }
-
 
 
 
@@ -366,6 +364,47 @@ select {
 
 #continue-checkout{
   text-align: center;
+}
+
+@media screen and (min-width: 65em) {
+  .fixed{
+  	position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 65em) {
+  .shopping-cart{
+    display: block;
+    margin-bottom: 3em;
+  }
+
+  #checkout-img{
+    width: 16em;
+    height: 16em;
+  }
+
+  .cart-1{
+    display: flex;
+    width: 70%;
+    height: 16em;
+    margin-left: 5em;
+    margin-right: 5em;
+    border-color: #C36629;
+    border-style: solid;
+    border-width: thin;
+  }
+
+  .cart-2{
+    width: 70%;
+    margin-top: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+    border-color: #C36629;
+    border-style: solid;
+    border-width: thin;
+  }
 }
 
 
@@ -1005,4 +1044,38 @@ textarea {
 }
 
 
+/* ------------- SCROLL TO TOP BUTTON -----------*/
+/* button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: 1px solid #BB432B;
+  outline: none;
+  background-color: #BB432B;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 50%;
+}
 
+#myBtn:hover {
+  background-color: rgb(195, 102, 41);
+  border-color: rgb(195, 102, 41);
+}
+
+
+.up{
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+i{
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+
+}
