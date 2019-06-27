@@ -26,7 +26,8 @@
 	height: 2rem;
 	width: 15rem;
 	background-color: transparent;
-	border-bottom: solid 1px rgb(195, 102, 41);
+	letter-spacing: 0.08rem;
+	border-bottom: solid 1px rgb(187, 67, 43);
 }
 
 ::placeholder {
@@ -35,6 +36,12 @@
 
 #search-input:focus {
 	outline: none;
+}
+
+#search, input {
+	font-family: 'Medium', Helvetica, sans-serif;
+	color: rgb(187, 67, 43);
+	font-size: 1rem;
 }
 
 
