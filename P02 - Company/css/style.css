@@ -1122,31 +1122,35 @@ input[type=input] {
 	color: rgb(150, 150, 150);
 	font-size: 1rem;
 	letter-spacing: 0.12rem;
-	margin-left: 7rem;
+	margin-left: 10%;
 }
 
 #faq-main-header {
 	text-align: left;
-	margin-left: 7rem;
+	margin-left: 10%;
 }
 
 .faq-wrapper {
 	display: flex;
+  margin-left: 10%;
+  margin-right: 20%;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .faq-subheadings {
-	margin-left: 7rem;
-	flex: 2 1 25%;
+	flex: 1 1 0;
 }
 
 .faq-content {
-	flex: 3 1 75%;
+	flex: 3 1 0;
 	margin-top: 3rem;
 }
 
 .faqaccordion {
 	background-color: transparent;
-	width: 75%;
+	width: 100%;
 	font-family: 'Medium', Helvetica, sans-serif;
 	font-size: 1.15rem;
 	padding: 1.5rem;
@@ -1155,7 +1159,7 @@ input[type=input] {
 	transition: 0.5s;
 	cursor: pointer;
 	text-align: left;
-  	border-top: 2px solid rgb(195, 102, 41);
+  border-top: 2px solid rgb(195, 102, 41);
 }
 
 .active, .faqaccordion:hover {
@@ -1175,7 +1179,7 @@ input[type=input] {
 
 .answer {
 	padding: 0 2rem;
-	width: 75%;
+	width: 100%;
 	background-color: transparent;
 	max-height: 0;
 	overflow: hidden;
@@ -1184,20 +1188,66 @@ input[type=input] {
 
 .header-border {
 	border: 2px solid rgb(195, 102, 41);
-	width: 60%;
+	width: 80%;
 	display: inline-block;
 	text-align: left;
 }
 
 #separate-faq {
 	border: 1px solid rgb(195, 102, 41);
-	width: 75%;
+	width: 100%;
 	margin: 0;
 }
 
 .faq-sections {
 	margin-bottom: 2.5rem;
 }
+
+/*------------------------ MEDIA QUERIES for FAQ----------------------------*/
+
+@media only screen and (max-width: 57em) {
+
+  #faq-title {
+    margin-left: 6.5%;
+  }
+
+  #faq-main-header {
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    line-height: 2.5rem;
+    margin-bottom: 0;
+  }
+
+  .faq-wrapper {
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    flex-direction: column;
+  }
+
+  .faq-subheadings {
+    width: 100%;
+  }
+
+  .faq-content {
+    width: 100%;
+  }
+
+  .faq-wrapper .faq-subheadings hr {
+    border: 0 rgb(247, 241, 235);
+    width: 0;
+  }
+
+  .faqaccordion {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .answer {
+    padding: 0 1rem;
+  }
+
+}
+
 
 
 /* ------------- CITATIONS -------------*/
