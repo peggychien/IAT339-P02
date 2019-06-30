@@ -3,6 +3,8 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Honesty - Checkout</title>
 
 	<!-- link for styling css -->
@@ -26,77 +28,65 @@
 
 
 		<!-- div regarding header, incl. arrows + checkout -->
-		<div class="header-wrapper">
-			<div class="header-wrapper-item"></div>
-			<div class="header-wrapper-item">
-				<a href="#"><img id="goback-icon" src="img/goback-icon.png" alt="go back button"></a>
+		<div class="checkout-header-wrapper">
+			<div class="checkout-goback-icon">
+				<a href="shopping-bag.html"><img id="goback-icon" src="img/goback-icon.png" alt="go back button"></a>
 			</div>
 
-			<div class="header-wrapper-item">
+			<div class="checkout-header-type">
 				<h2>Checkout</h2>
 			</div>
-			<div class="header-wrapper-space"></div>
 		</div>
 
 
-		<!-- SHIPPING SECTION -->
+		<!------------------- SHIPPING SECTION ------------------->
+
 		<section>
 
-			<!-- div regarding 'Shipping Address' header + line -->
-			<div class="subheader-wrapper">
-				<div class="subheader-emptyspace"></div>
-				<div class="subheader-content">
+			<!------- div regarding 'Shipping Address' header + line -------->
+
+			<div class="shippingad-wrapper">
+				<div class="shippingad-type">
 					<h3>Shipping Address</h3>
-					<hr>
+					<hr id="shippingad-line">
 				</div>
-				<div class="subheader-emptyspace"></div>
 			</div>
 
 			<!-- div regarding first row of input fields, incl. first name + last name -->
 			<div class="input-fields-wrapper">
-				<div class="input-space"></div>
-				<div class="input-item">
+				<div class="input-item-1">
 					<input type="input" id="comment" name="comment" placeholder="First Name">
 				</div>
-				<div class="input-item">
+				<div class="input-item-2">
 					<input type="input" id="comment" name="comment" placeholder="Last Name">
 				</div>
-				<div class="input-space"></div>
 			</div>
 
 			<!-- div regarding second row of input fields, incl. address + company -->
 			<div class="input-fields-wrapper">
-				<div class="input-space"></div>
-				<div class="input-item">
+				<div class="input-item-1">
 					<input type="input" id="comment" name="comment" placeholder="Street Address">
 				</div>
-
-				<div class="input-item">
+				<div class="input-item-2">
 					<input type="input" id="comment" name="comment" placeholder="Company (optional)">
 				</div>
-				<div class="input-space"></div>
 			</div>
 
 			<!-- div regarding third row of input fields, incl. city + zip -->
 			<div class="input-fields-wrapper">
-				<div class="input-space"></div>
-				<div class="input-item">
+				<div class="input-item-1">
 					<input type="input" id="comment" name="comment" placeholder="City">
 				</div>
-
-				<div class="input-item">
+				<div class="input-item-2">
 					<input type="input" id="comment" name="comment" placeholder="ZIP or Postal Code">
 				</div>
-				<div class="input-space"></div>
 			</div>
 
 			<!-- div regarding fourth row of select options, incl. country + state/province -->
-			<div class="select-fields-wrapper">
-				<div class="select-space"></div>
-				<div class="select-item">
-					<!-- <input type="input" id="comment" name="comment" placeholder="Country"> -->
-						<div class="custom-select-container">
-							<div class="custom-select-dropdown">
+			<div class="selections-wrapper">
+				<div class="select-item-1">
+						<div class="options-container">
+							<div class="options-dropdown">
 								<select id="country" name="countries">
 									<option value="bc">Country</option>
 									<option value="bc">Korea</option>
@@ -107,10 +97,9 @@
 						</div>
 					</div>
 
-					<div class="select-item">
-					<!-- <input type="input" id="comment" name="comment" placeholder="State / Province"> -->
-					<div class="custom-select-container">
-						<div class="custom-select-dropdown">
+					<div class="select-item-2">
+					<div class="options-container">
+						<div class="options-dropdown">
 							<select id="province" name="provinces">
 								<option value="bc">Province</option>
 								<option value="bc">British Columbia</option>
@@ -127,43 +116,40 @@
 						</div>
 					</div>
 				</div>
-				<div class="select-space"></div>
 			</div>
 
 		</section>
 
 
-		<!-- PAYMENT SECTION -->
+
+
+		<!------------------- PAYMENT SECTION ------------------->
+
 		<section>
 
-			<!-- subheader: payment method section -->
-			<div class="subheader-wrapper-payment">
-				<div class="subheader-emptyspace"></div>
-				<div class="subheader-content">
+			<!------- subheader: payment method section ------->
+
+			<div class="payment-wrapper">
+				<div class="payment-type">
 					<h3>Payment Method</h3>
-					<hr>
+					<hr id="payment-line">
 				</div>
-				<div class="subheader-emptyspace"></div>
 			</div>
 
 			<div class="input-fields-wrapper">
-				<div class="input-space"></div>
-				<div class="input-item">
+				<div class="input-item-1">
 					<input type="input" id="comment" name="comment" placeholder="Card Number">
 				</div>
 
-				<div class="input-item">
+				<div class="input-item-2">
 					<input type="input" id="comment" name="comment" placeholder="Cardholder's Name">
 				</div>
-				<div class="input-space"></div>
 			</div>
 
 
-			<div class="card-select-wrapper">
+			<div class="card-info-wrapper">
 
-				<div class="card-select-space"></div> <!-- space between edge of the page and content-->
-
-				<div class="payment-select-item">
+				<div class="payment-item-1">
 					<div class="payment-select-container">
 						<div class="payment-select-dropdown">
 							<select id="month" name="months">
@@ -185,7 +171,7 @@
 					</div>
 				</div>
 
-				<div class="payment-select-item">
+				<div class="payment-item-2">
 					<div class="payment-select-container">
 						<div class="payment-select-dropdown">
 							<select id="year" name="years">
@@ -208,11 +194,11 @@
 				</div> <!-- closing the 'payment-select-item' tag of this row for expiration date -->
 
 
-				<div class="input-code">
-					<input type="input" id="comment" name="comment" placeholder="Security Code">
+				<div class="payment-item-3">
+					<div class="input-code">
+						<input type="input" id="comment" name="comment" placeholder="Security Code">
+					</div>
 				</div>
-
-				<div class="card-select-space"></div> <!-- space between edge of the page and content-->
 
 			</div> <!-- closing the wrapper tag of this section for card payment -->
 
@@ -222,12 +208,10 @@
 		<section>
 
 			<div class="placeorder-wrapper">
-				<div class="placeorder-emptyspace"></div>
 				<div class="placeorder-content">
-					<hr>
-					<a href="confirmation.html" class="button">PLACE ORDER</a>
+					<hr id="ordering-line">
+					<div id="order-button"><a href="confirmation.html" class="button">PLACE ORDER</a></div>
 				</div>
-				<div class="placeorder-emptyspace"></div>
 			</div>
 
 		</section>
