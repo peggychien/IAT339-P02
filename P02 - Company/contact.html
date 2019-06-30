@@ -3,6 +3,8 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Contact Us</title>
 
 	<!-- link for styling css -->
@@ -25,73 +27,72 @@
   </div>
 
 	<div id="contact-header">
-		<h2>Contact Info</h2>
+		<h2>Contact Us</h2>
 	</div>
 
-	<div class="contact-container">
-		<div class="contact-map">
-			<!-- reference: Google Maps. -->
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202404.21945693798!2d126.84946464445918!3d37.565289398710505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca28b61c565cd%3A0x858aedb4e4ea83eb!2sSeoul%2C+South+Korea!5e0!3m2!1sen!2sca!4v1560457868513!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-		</div>
+	<div class="contact-map">
+		<!-- reference: Google Maps. -->
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202404.21945693798!2d126.84946464445918!3d37.565289398710505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca28b61c565cd%3A0x858aedb4e4ea83eb!2sSeoul%2C+South+Korea!5e0!3m2!1sen!2sca!4v1560457868513!5m2!1sen!2sca" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
 
-		<div class="contact-info">
-			<div class="info-container">
-				<h3 class="contact-subheader">ADDRESS</h3>
-				<p id="address-line">Cheongdam, 27-2, Seolleung-ro 162-gil
-				Gangnam-gu Seoul, South Korea</p>
-			</div>
 
-			<div class="info-container">
+	<div class="contactinfo-container">
+			
+			<div class="info-container-1">
+				<img class="contactinfo-icons" src="img/phone-icon.png" alt="the icon for phone number adopted from Phone by NOVITA ASTRI from the Noun Project">
 				<h3 class="contact-subheader">PHONE NUMBER</h3>
 				<p>+82 2-542-2290</p>
 			</div>
 
-			<div class="info-container">
+			<div class="info-container-2">
+				<img class="contactinfo-icons" src="img/location-icon.png" alt="the icon for address adopted from Location by Simon Farkas from the Noun Project">
+				<h3 class="contact-subheader">ADDRESS</h3>
+				<p>Cheongdam, 27-2, Seolleung-ro</p>
+				<p>162-gil Gangnam-gu Seoul, South Korea</p>
+			</div>
+
+			<div class="info-container-3">
+				<img class="contactinfo-icons" src="img/email-icon.png" alt="the icon for email adopted from Email by Graphic Tigers from the Noun Project">
 				<h3 class="contact-subheader">EMAIL</h3>
 				<p>sayhello@honesty.ca</p>
 			</div>
-		</div>
 	</div>
 
 
 	<div id="request-header">
-		<h2>Leave a request for us!</h2>
+		<h2>Say Hello!</h2>
 	</div>
 
-	<div class="input-field-wrapper">
-		<div class="space"></div>
-		<div class="input-field-col1">
+	<div class="contact-field-wrapper">
+		
+		<div class="contact-field-1">
 			<input type="input" id="comment" name="comment" placeholder="Full Name">
 		</div>
-		<div class="input-field-col2">
+		<div class="contact-field-2">
 			<input type="input" id="comment" name="comment" placeholder="Order Number #">
 		</div>
-		<div class="space"></div>
+		
 	</div>
 
-	<div class="input-field-wrapper">
-		<div class="space"></div>
-		<div class="input-field-col1">
+	<div class="contact-field-wrapper">
+		<div class="contact-field-1">
 			<input type="input" id="comment" name="comment" placeholder="Email Address">
 		</div>
-		<div class="input-field-col2">
+		<div class="contact-field-2">
 			<input type="input" id="comment" name="comment" placeholder="Subject">
 		</div>
-		<div class="space"></div>
+		
 	</div>
 
 
 		<div class="label-container">
-			<div class="label-space"></div>
 			<label class="label-msg" for="comment">Message</label>
 		</div>
 
 		<div class="textarea-wrapper">
-			<div class="textarea-space"></div>
 			<form class="msg-area">
 			  <textarea placeholder="Write your message here..."></textarea>
 			</form>
-			<div class="textarea-space"></div>
 		</div>
 
 
