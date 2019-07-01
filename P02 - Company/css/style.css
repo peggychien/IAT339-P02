@@ -614,16 +614,11 @@ input[type=input] {
 .landingimg-container {
 	width: 100%;
 	height: 25rem;
-	background-color: rgba(195, 102, 41, 0.5);
+	background-color: rgb(195, 102, 41);
 }
 
 /* grid structure */
 
-*, *::before, *::after {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
 
 .wrapper-about-1 {
 	display: flex;
@@ -669,7 +664,182 @@ input[type=input] {
   	margin: 2rem;
 }
 
+/*---------------------------- Our Story ----------------------------*/
 
+
+.teastory-container {
+  display: flex;
+  margin: 5rem;
+}
+
+.teastory-paragraph {
+  flex: 1 1 auto;
+  margin-right: 2rem;
+  line-height: 2.15rem;
+}
+
+.teastory-img {
+  flex: 1 1 auto;
+}
+
+#teastory-subhead {
+  font-family: 'Medium', sans-serif;
+  letter-spacing: 0.12rem;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+
+
+/* ----------------------------  FINALIZED ABOUT PAGE  ---------------------------------*/
+
+.wrapper-cover-container {
+  position: relative;
+  text-align: center;
+}
+
+.cover-img {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.ourjourney-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Demi', sans-serif;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.12rem;
+}
+
+.about-subhead {
+  text-align: center;
+  font-family: 'Medium', Helvetica, sans-serif;
+  letter-spacing: 0.12rem;
+  font-size: 1rem;
+  margin-top: 7rem;
+}
+
+.tea-container {
+  display: flex;
+  margin-top: 4rem;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.tea-img-section {
+  flex: 3 1 0;
+}
+
+.tea-bodycopy {
+  flex: 1 1 0;
+}
+
+.tea-bodycopy p {
+  font-family: 'Light', sans-serif;
+  text-align: left;
+  font-size: 0.85rem;
+  margin-top: 0;
+  line-height: 2rem;
+}
+
+.about-tea-img {
+  height: 25rem;
+  padding-right: 1.5rem;
+}
+
+.separation-line-1 {
+  margin-top: 7rem;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+
+.separation-line-2 {
+  margin-bottom: 7rem;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+
+.separation-line-3 {
+  margin-bottom: 7rem;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+
+.honestea-philosophy-container {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.philosophy-bodycopy p {
+  display: inline-block;
+  text-align: left;
+  width: 65%;
+  line-height: 2rem;
+  margin-bottom: 4rem;
+}
+
+.coffee-img-section {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+
+.about-coffee-img {
+  width: 25rem;
+  padding-right: 1.5rem;
+}
+
+.coffee-bodycopy {
+  text-align: center;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-bottom: 5rem;
+}
+
+.coffee-bodycopy p {
+  display: inline-block;
+  width: 70%;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.cocoa-img-section {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.about-cocoa-img {
+  width: 17.5rem;
+  padding-right: 2.5rem;
+}
+
+.cocoa-bodycopy {
+  text-align: center;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-bottom: 5rem;
+}
+
+.cocoa-bodycopy p {
+  display: inline-block;
+  width: 70%;
+  line-height: 2rem;
+  text-align: center;
+}
 
 
 /* ----------------------------  CHECKOUT PAGE  ---------------------------------*/
@@ -997,123 +1167,6 @@ input[type=input] {
   }
 
 }
-
-/*---------------------------- Our Story ----------------------------*/
-
-/* grid structure */
-
-/**, *::before, *::after {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}*/
-
-
-.wrapper-cover-container {
-	position: relative;
-	text-align: center;
-}
-
-.wrapper-img {
-	width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	opacity: 0.75;
-}
-
-.about-header {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-60%, -50%);
-	font-family: 'Demi', sans-serif;
-	font-size: 3rem;
-	color: rgb(187, 67, 43);
-	letter-spacing: 0.12rem;
-}
-
-.intro-container {
-	margin: 5rem;
-	display: flex;
-}
-
-#about-img-2 {
-	width: 75%;
-}
-
-.intro-img {
-	flex: 50%;
-}
-
-.intro-paragraph {
-	flex: 50%;
-	font-family: 'Light', sans-serif;
-	text-align: left;
-	font-size: 0.95rem;
-	line-height: 2.15rem;
-}
-
-.separation-line {
-	width: 78.5rem;
-	margin-left: 5rem;
-	margin-right: 5rem;
-}
-
-.about-paragraph2-container {
-	text-align: center;
-	margin-top: 5rem;
-}
-
-#history-subhead {
-	font-family: 'Medium', sans-serif;
-	letter-spacing: 0.12rem;
-	font-size: 1rem;
-}
-
-.history-paragraph {
-	display: inline-block;
-	text-align: left;
-	width: 65%;
-	line-height: 2.15rem;
-	margin-bottom: 4rem;
-}
-
-.teastory-container {
-	display: flex;
-	margin: 5rem;
-}
-
-.teastory-paragraph {
-	flex: 1 1 auto;
-	margin-right: 2rem;
-	line-height: 2.15rem;
-}
-
-.teastory-img {
-	flex: 1 1 auto;
-}
-
-#teastory-subhead {
-	font-family: 'Medium', sans-serif;
-	letter-spacing: 0.12rem;
-	font-size: 1rem;
-	text-align: center;
-	margin-top: 5rem;
-}
-
-/*.request-button{
-  padding: 1rem 1.5rem;
-	margin-top: 2rem;
-  width: 100%;
-  text-align: center;
-}
-
-.request-button-container{
-  margin-left: 5em;
-  margin-right: 5em;
-}*/
 
 
 /*--------------------- FAQ	------------------------*/
