@@ -497,6 +497,10 @@ iframe {
   flex-wrap: wrap;
 }
 
+.label-container .label-msg {
+  color: rgb(187, 67, 43);
+}
+
 .textarea-wrapper {
   display: flex;
   margin-left: 20%;
@@ -609,98 +613,25 @@ input[type=input] {
 
 
 
-/* ---------------------------- ABOUT ------------------------------ */
+/*---------------------------- ABOUT - Our Story ----------------------------*/
 
-.landingimg-container {
-	width: 100%;
-	height: 25rem;
-	background-color: rgb(195, 102, 41);
-}
-
-/* grid structure */
-
-
-.wrapper-about-1 {
-	display: flex;
-}
-
-.wrapper-1-text {
-	flex: 1 1 auto;
-	padding: 2rem;
-	line-height: 2rem;
-	margin-top: 10rem;
-}
-
-.wrapper-1-img {
-	flex: 1 1 auto;
-  margin: 2rem;
-}
-
-.wrapper-about-2 {
-	margin-top: 3rem;
-	text-align: center;
-}
-
-.wrapper-text-2 {
-	display: inline-block;
-	text-align: left;
-	width: 50%;
-	line-height: 2rem;
-}
-
-.wrapper-about-3 {
-	display: flex;
-}
-
-.wrapper-3-text {
-	flex: 1 1 auto;
-	padding: 2rem;
-	line-height: 2rem;
-	margin-top: 10rem;
-}
-
-.wrapper-3-img {
-	flex: 1 1 auto;
-  	margin: 2rem;
-}
-
-/*---------------------------- Our Story ----------------------------*/
-
-
-.teastory-container {
-  display: flex;
-  margin: 5rem;
-}
-
-.teastory-paragraph {
-  flex: 1 1 auto;
-  margin-right: 2rem;
-  line-height: 2.15rem;
-}
-
-.teastory-img {
-  flex: 1 1 auto;
-}
-
-#teastory-subhead {
-  font-family: 'Medium', sans-serif;
-  letter-spacing: 0.12rem;
-  font-size: 1rem;
-  text-align: center;
-  margin-top: 5rem;
-}
-
-
-
-/* ----------------------------  FINALIZED ABOUT PAGE  ---------------------------------*/
 
 .wrapper-cover-container {
   position: relative;
   text-align: center;
 }
 
-.cover-img {
+#cover-img-desktop {
   width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: block;
+}
+
+#cover-img-mobile {
+  display: none;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -752,9 +683,13 @@ input[type=input] {
   line-height: 2rem;
 }
 
-.about-tea-img {
+.dabout-tea-img {
   height: 25rem;
   padding-right: 1.5rem;
+}
+
+.mabout-tea-img {
+  display: none;
 }
 
 .separation-line-1 {
@@ -780,10 +715,13 @@ input[type=input] {
   margin-top: 7rem;
 }
 
-.philosophy-bodycopy p {
+.philosophy-bodycopy {
   display: inline-block;
   text-align: left;
   width: 65%;
+}
+
+.philosophy-bodycopy p {
   line-height: 2rem;
   margin-bottom: 4rem;
 }
@@ -839,6 +777,172 @@ input[type=input] {
   width: 70%;
   line-height: 2rem;
   text-align: center;
+}
+
+
+/*---------------------- MEDIA QUERIES: ABOUT ----------------------*/
+
+@media screen and (max-width: 57em) {
+
+  #cover-img-desktop {
+    display: none;
+  }
+
+  #cover-img-mobile {
+    display: block;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .ourjourney-header {
+    font-size: 1.5rem;
+    letter-spacing: 0.12rem;
+  }
+
+  .about-subhead {
+    letter-spacing: 0.12rem;
+    font-size: 0.75rem;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 3rem;
+    line-height: 1.5rem;
+  }
+
+  .dabout-tea-img {
+    display: none;
+  }
+
+  .mabout-tea-img {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  .tea-container {
+    margin-top: 4rem;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    flex-direction: column;
+  }
+
+  .tea-img-section {
+    width: 100%;
+  }
+
+  .tea-bodycopy {
+    width: 100%;
+  }
+
+  .tea-bodycopy p {
+    font-size: 0.65rem;
+    margin-top: 0;
+    line-height: 1.5rem;
+  }
+
+  .separation-line-1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .honestea-philosophy-container {
+    text-align: center;
+    margin-top: 4rem;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+  }
+
+  .honestea-philosophy-container .about-subhead {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .philosophy-bodycopy {  
+    width: 100%;
+
+  }
+
+  .philosophy-bodycopy p {
+    font-size: 0.65rem;
+    margin-top: 0;
+    line-height: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .separation-line-2 {
+    margin-bottom: 4rem;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  .coffee-img-section {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  .about-coffee-img {
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 1rem;
+  }
+
+  .coffee-bodycopy {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-bottom: 5rem;
+    margin-bottom: 0;
+  }
+
+  .coffee-bodycopy p {
+    text-align: left;
+    width: 100%;
+    font-size: 0.65rem;
+    line-height: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .separation-line-3 {
+    margin-bottom: 4rem;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  } 
+
+  .cocoa-img-section {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    text-align: center;
+  }
+
+  .about-cocoa-img {
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 1rem;
+  }
+
+  .cocoa-bodycopy {
+    text-align: left;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-bottom: 2rem;
+  }
+
+  .cocoa-bodycopy p {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    font-size: 0.65rem;
+    line-height: 1.5rem;
+    margin-bottom: 0;
+  } 
+
 }
 
 
