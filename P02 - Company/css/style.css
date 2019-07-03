@@ -293,50 +293,6 @@ transform: translate(-50%, -50%);
   display: flex;
 }
 
-
-/* ----------------------- DEMO ------------------------*/
-/*.faqaccordion {
-  background-color: transparent;
-  width: 100%;
-  font-family: 'Medium', Helvetica, sans-serif;
-  font-size: 1.15rem;
-  padding: 1.5rem;
-  border: none;
-  outline: none;
-  transition: 0.5s;
-  cursor: pointer;
-  text-align: left;
-  border-top: 2px solid rgb(195, 102, 41);
-}*/
-
-/*.active, .faqaccordion:hover {
-  background-color: transparent;
-}*/
-
-/*.faqaccordion:after {
-  content: '\002B';
-  color: rgba(195, 102, 41, 0.7);
-  float: right;
-  margin-left: 5rem;
-}*/
-
-/*.active:after {
-  content: "\2212";
-}*/
-
-/*.answer {
-  padding: 0 2rem;
-  width: 100%;
-  background-color: transparent;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}*/
-/* ----------------------- DEMO ------------------------*/
-
-
-
-
 .side-bar{
   display: block;
   width: 25%;
@@ -535,6 +491,84 @@ transform: translate(-50%, -50%);
   text-align: left;
   padding: 6em;
   padding-top: 5em;
+}
+
+.separate-product-descriptions {
+  border: 1px solid rgb(195, 102, 41);
+  margin: 0;
+}
+
+.product-overview-container {
+  margin-top: 3rem;
+}
+
+.productoverview {
+  font-family: 'Demi', Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.17em;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  padding: 0 50% 1rem 0;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.productoverview:after {
+  /*content: '\002B';*/
+  color: rgba(195, 102, 41, 0.7);
+  float: right;
+  /*margin-left: 5rem;*/
+}
+
+.overview-active:after {
+  /*content: "\2212";*/
+}
+
+.poverview {
+  width: 100%;
+  background-color: transparent;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.product-ingredient-container {
+  margin-top: 1rem;
+}
+
+.productingredients {
+  font-family: 'Demi', Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.17em;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  padding: 0 50% 1rem 0;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.productingredients:after {
+  /*content: '\002B';*/
+  color: rgba(195, 102, 41, 0.7);
+  float: right;
+  /*margin-left: 5rem;*/
+}
+
+.ingredient-active:after {
+  /*content: "\2212";*/
+}
+
+.pingredient {
+  width: 100%;
+  background-color: transparent;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
 
 .stars{
