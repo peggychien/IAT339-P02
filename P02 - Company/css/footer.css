@@ -15,14 +15,18 @@
 	margin-right: 2rem;
 }
 
-#search-input, input[type=text] {
-	border: none;
+#search-input, input[type=search] {
 	box-sizing: border-box;
-	height: 2rem;
-	width: 15rem;
-	background-color: transparent;
 	letter-spacing: 0.08rem;
-	border-bottom: solid 1px rgb(187, 67, 43);
+  	color: rgb(187, 67, 43);
+  	padding-bottom: 0.25rem;
+  	width: 12.5rem;
+ 	margin: 8px 0;
+  	border: none;
+  	border-bottom: 1px solid rgb(187, 67, 43);
+  	background-color: transparent;
+  	text-align: left;
+  	font-family: 'Medium', Helvetica, sans-serif;
 }
 
 ::placeholder {
