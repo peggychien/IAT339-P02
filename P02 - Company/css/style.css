@@ -211,7 +211,7 @@ body{
 }
 
 
-/* -------------- PRODUCTS -----------*/
+/* -------------- ALL-PRODUCTS -----------*/
 
 .products{
   display: flex;
@@ -225,11 +225,53 @@ body{
   font-family: 'Medium', Helvetica, sans-serif;
 }
 
+.side-bar .browse p {
+  line-height: 1rem;
+}
+
+.filter-line {
+  margin: 0;
+  width: 75%;
+}
+
+.filter-title {
+  font-family: 'Demi', Helvetica, sans-serif;
+  color: rgb(187, 67, 43);
+}
+
+.browse {
+  margin-bottom: 3rem;
+}
+
+.filter-option-1 {
+  display: block;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-family: 'Light', Helvetica, sans-serif;
+  font-size: 0.9em;
+  padding: 1rem 7rem 1rem 0;
+}
+
+.filter-option-2 {
+  display: block;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-family: 'Light', Helvetica, sans-serif;
+  font-size: 0.9em;
+  padding: 0 7rem 1rem 0;
+}
+
+
 .all-products{
   width: 75%;
   margin-right: 7em;
 }
 
+.side-bar #current {
+  font-family: 'Demi', Helvetica, sans-serif;
+}
 
 .flex-grid-products{
   display: flex;
