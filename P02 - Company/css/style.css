@@ -1553,3 +1553,60 @@ i{
   padding: 3px;
 
 }
+
+
+/* ---------------------- Scrollbar ---------------------- */
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F2F2F2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #BB432B;
+  border-radius: 0.8rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #BB432B;
+} /* scrollbar */
+
+
+/* Buttons */
+::-webkit-scrollbar-button
+{
+  background: #F2F2F2;
+  border-style: solid;
+  height: 0.8rem;
+  width: 0.8rem;
+}
+
+::-webkit-scrollbar-button:vertical:decrement
+{
+  border-width: 0;
+  border-color: transparent transparent transparent transparent;
+}
+
+::-webkit-scrollbar-button:vertical:decrement:hover
+{
+  border-color: transparent transparent transparent transparent;
+}
+
+
+::-webkit-scrollbar-button:vertical:increment
+{
+  border-width: 0;
+  border-color: transparent transparent transparent transparent;
+}
+
+::-webkit-scrollbar-button:vertical:increment:hover
+{
+  border-color: transparent transparent transparent transparent;
+}
