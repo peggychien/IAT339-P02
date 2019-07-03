@@ -146,15 +146,91 @@ body{
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
+.banner{
+  position: relative;
+  width: 100%;
+}
+
+.banner-img{
+  width: 100%;
+  height: auto;
+}
+
+.banner-description{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin: 0 8%;
+  transform: translateY(-50%);
+}
+
+.banner-img-mobile{
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.banner-img-tablet{
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 60em) {
+
+    .banner-img{
+      display: none;
+    }
+
+    .banner-img-tablet{
+      display: block;
+    }
+
+}
+
+@media screen and (max-width: 40em) {
+
+    .banner-img-tablet{
+      display: none;
+    }
+
+    .banner-img-mobile{
+      display: block;
+    }
+
+    .banner-description{
+      margin: 0 15%
+    }
+
+}
+
+/* .banner-text{
+position: absolute;
+left: 0;
+top: 30%;
+left: 25%;
+text-align: left;
+transform: translate(-50%, -50%);
+}
+
+#banner-button{
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+} */
+/*
 .mySlides {
   display:none;
-}
+} */
 
 
 /* -------------- FEATURED PRODUCTS -----------*/
 *{
   box-sizing: border-box;
 }
+
 .flex-grid {
   display: flex;
   text-align: center;
