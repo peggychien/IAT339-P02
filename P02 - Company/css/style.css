@@ -1020,7 +1020,7 @@ input[type=input] {
   }
 
   .tea-bodycopy p {
-    font-size: 0.65rem;
+    font-size: 0.78rem;
     margin-top: 0;
     line-height: 1.5rem;
   }
@@ -1048,7 +1048,7 @@ input[type=input] {
   }
 
   .philosophy-bodycopy p {
-    font-size: 0.65rem;
+    font-size: 0.78rem;
     margin-top: 0;
     line-height: 1.5rem;
     margin-bottom: 0;
@@ -1084,7 +1084,7 @@ input[type=input] {
   .coffee-bodycopy p {
     text-align: left;
     width: 100%;
-    font-size: 0.65rem;
+    font-size: 0.78rem;
     line-height: 1.5rem;
     margin-bottom: 0;
   }
@@ -1120,7 +1120,7 @@ input[type=input] {
     display: inline-block;
     width: 100%;
     text-align: left;
-    font-size: 0.65rem;
+    font-size: 0.78rem;
     line-height: 1.5rem;
     margin-bottom: 0;
   }
