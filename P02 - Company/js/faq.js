@@ -1,4 +1,4 @@
-// Accodion SCROLLING
+// Accodion SCROLLING on FAQ page
 
 var acc = document.getElementsByClassName("faqaccordion");
 var i;
