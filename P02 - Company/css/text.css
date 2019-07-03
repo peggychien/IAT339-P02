@@ -111,3 +111,22 @@ hr {
   background-color: #C36629;
   color: white;
 }
+
+.filled-button {
+  display: inline-block;
+  padding: 1em 4.5em;
+  color: white;
+  border-style: solid;
+  border-width: thin;
+  border-color: #C36629;
+  background-color: #C36629;
+  text-decoration: none;
+  -webkit-transition: opacity 0.5s ease-out;
+  transition: opacity 0.2s ease-out;
+  font-family: 'Demi', Helvetica, sans-serif;
+}
+
+.filled-button:hover, .filled-button:focus {
+  opacity: 0.9;
+  color: white;
+}
