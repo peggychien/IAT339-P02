@@ -484,7 +484,7 @@ body{
 }
 
 .separate-product-descriptions {
-  border: 1px solid rgb(195, 102, 41);
+  border: 0.5px solid rgb(195, 102, 41);
   margin: 0;
 }
 
@@ -1815,7 +1815,7 @@ input[type=input] {
 	transition: 0.5s;
 	cursor: pointer;
 	text-align: left;
-  border-top: 2px solid rgb(195, 102, 41);
+  border-top: 1px solid rgb(195, 102, 41);
 }
 
 .active, .faqaccordion:hover {
@@ -1843,14 +1843,14 @@ input[type=input] {
 }
 
 .header-border {
-	border: 2px solid rgb(195, 102, 41);
+	border: 1px solid rgb(195, 102, 41);
 	width: 80%;
 	display: inline-block;
 	text-align: left;
 }
 
 #separate-faq {
-	border: 1px solid rgb(195, 102, 41);
+	border: 0.5px solid rgb(195, 102, 41);
 	width: 100%;
 	margin: 0;
 }
