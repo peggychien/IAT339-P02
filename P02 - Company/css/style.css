@@ -606,15 +606,13 @@ body{
 /* ---------------- REVIEWS --------------*/
 .reviews{
   margin-top: 4em;
-  margin-left: 22.5%;
-  margin-right: 22.5%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .customer-reviews{
   margin-top: 1.5em;
   display: flex;
-  margin-left: 9em;
-  margin-right: 9em;
 }
 
 
@@ -635,7 +633,6 @@ body{
 }
 
 .review-header{
-  margin-left: 8em;
   margin-top: 4.5em;
   margin-bottom: 2em;
 }
@@ -643,8 +640,6 @@ body{
 
 #review-hr {
 	height: 1px;
-  margin-right: 7em;
-  margin-left: 7em;
   background-color: rgb(195, 102, 41);
   border: none;
   margin-top: 3rem;
