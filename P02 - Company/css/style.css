@@ -108,21 +108,20 @@ body{
     .burger{
       display: block;
       cursor: pointer;
-      position: absolute;
-      right: 2em;
     }
 
     .burger-nav{
       display: flex;
-      /* justify-content: space-around; */
-      margin-left: 2em;
-      margin-right: 2em;
+      justify-content: space-between;
+      align-content: center;
       align-items: center;
+      padding-left: 10%;
+      padding-right: 10%;
     }
-
+/*
     #logo-burger{
       left: 10%;
-    }
+    } */
 }
 
 .nav-active{
@@ -578,7 +577,7 @@ body{
 @media screen and (max-width: 70em) {
   .product-description{
     padding-top: 2em;
-    padding: 2em 4em 4em 4em;
+    padding: 2em 2em 2em 2em;
   }
 }
 
@@ -593,9 +592,6 @@ body{
     width: 100%;
   }
 
-  .product-img{
-    padding: 2em;
-  }
 
   .product-description{
     padding-top: 0em;
@@ -663,10 +659,6 @@ body{
     display: block;
   }
 
-  .review-header{
-    margin-left: 1em;
-  }
-
   .review-date{
     width: 5%;
 
@@ -675,6 +667,11 @@ body{
   #review-hr{
     margin-right: 0.9em;
     margin-left: 0.9em;
+  }
+
+  .reviews{
+    margin-left: 12%;
+    margin-right: 12%;
   }
 }
 
