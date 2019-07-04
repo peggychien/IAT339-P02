@@ -6,7 +6,7 @@ section{
 
 section h3 {
   margin-bottom: 0.7em;
-  margin-top: 2.5em;
+  margin-top: 3em;
 }
 
 section code {
@@ -18,6 +18,13 @@ section code {
   line-height: 1em;
 }
 
+.style-rendered{
+  margin-bottom: 3em;
+}
+
+.remove-margin{
+  margin: 0;
+}
 
 /* ------------INTERACTIVE ELEMENTS ------------------- */
 

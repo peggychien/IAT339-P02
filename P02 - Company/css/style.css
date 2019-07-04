@@ -110,7 +110,6 @@ body{
       cursor: pointer;
       position: absolute;
       right: 2em;
-
     }
 
     .burger-nav{
@@ -481,7 +480,7 @@ body{
 .product-description{
   text-align: left;
   padding: 6em;
-  padding-top: 5em;
+  padding-top: 2em;
 }
 
 .separate-product-descriptions {
@@ -620,29 +619,42 @@ body{
 
 
 .review-name{
-  width: 33%;
+  width: 25%;
   display: block;
   margin-right: 1em;
 }
 
 .review-description{
-  width: 57%;
+  width: 55%;
   display: block;
-  margin-right: 1em;
+  margin-right: 2em;
 }
 
 .review-date{
-  width: 5%;
+  width: 15%;
 }
 
 .review-header{
+  margin-left: 8em;
   margin-top: 4.5em;
   margin-bottom: 2em;
 }
 
-@media screen and (max-width: 45em) {
+
+#review-hr {
+	height: 1px;
+  margin-right: 7em;
+  margin-left: 7em;
+  background-color: rgb(195, 102, 41);
+  border: none;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 60em) {
   .customer-reviews{
     display: block;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   .review-name{
@@ -656,10 +668,28 @@ body{
     display: block;
   }
 
+  .review-header{
+    margin-left: 1em;
+  }
+
   .review-date{
     width: 5%;
 
   }
+
+  #review-hr{
+    margin-right: 0.9em;
+    margin-left: 0.9em;
+  }
+}
+
+
+@media screen and (max-width: 40em) {
+  .customer-reviews{
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+  }
+
 }
 
 /* ---------------- REVIEWS INPUT --------------*/
