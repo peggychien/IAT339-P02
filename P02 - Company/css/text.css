@@ -66,6 +66,13 @@ hr {
   margin-top: 3rem;
 }
 
+ol, li {
+  font-family: 'Medium', Helvetica, sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.01em;
+  line-height: 160%;
+}
+
 
 #product-body{
   padding-top: 1em;

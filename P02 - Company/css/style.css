@@ -1904,7 +1904,13 @@ input[type=input] {
 /* ------------- CITATIONS -------------*/
 
 #reference-list {
-	margin-left: 7rem;
+	margin-left: 10%;
+  margin-top: 5rem;
+  margin-right: 10%;
+}
+
+.citation-item {
+  margin-bottom: 4rem;
 }
 
 
