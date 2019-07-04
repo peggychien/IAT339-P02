@@ -678,8 +678,8 @@ body{
 
 @media screen and (max-width: 40em) {
   .customer-reviews{
-    margin-left: 0.3em;
-    margin-right: 0.3em;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
 }
