@@ -1,7 +1,6 @@
 h1{
   font-family: 'Logo', Helvetica, sans-serif;
-  font-size: 4em;
-  letter-spacing: 0.15em;
+  font-size: 3em;
   color: #BB432B;
 }
 
@@ -88,10 +87,27 @@ hr {
   color: #932715;
 }
 
-.read-more{
-  text-decoration: underline;
+.left-align{
+  text-align: left;
 }
 
+ul{
+  color: #BB432B;
+  font-family: 'Medium', Helvetica, sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+}
+
+li{
+  line-height: 1.7em;
+}
+
+ol{
+  font-family: 'Light', Helvetica, sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.01em;
+}
 
 
 /* ------------------ MAIN BUTTON ------------- */
