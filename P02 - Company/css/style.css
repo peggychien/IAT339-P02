@@ -108,13 +108,20 @@ body{
     .burger{
       display: block;
       cursor: pointer;
-
+      position: absolute;
+      right: 2em;
     }
 
     .burger-nav{
       display: flex;
-      justify-content: space-around;
+      /* justify-content: space-around; */
+      margin-left: 2em;
+      margin-right: 2em;
       align-items: center;
+    }
+
+    #logo-burger{
+      left: 10%;
     }
 }
 
@@ -203,27 +210,6 @@ body{
     }
 
 }
-
-/* .banner-text{
-position: absolute;
-left: 0;
-top: 30%;
-left: 25%;
-text-align: left;
-transform: translate(-50%, -50%);
-}
-
-#banner-button{
-  position: absolute;
-  top: 70%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-} */
-/*
-.mySlides {
-  display:none;
-} */
 
 
 /* -------------- FEATURED PRODUCTS -----------*/
@@ -467,6 +453,10 @@ transform: translate(-50%, -50%);
     margin-left: 2em;
   }
 
+  .product-link{
+    font-size: 0.85em;
+  }
+
 }
 
 
@@ -490,7 +480,7 @@ transform: translate(-50%, -50%);
 .product-description{
   text-align: left;
   padding: 6em;
-  padding-top: 5em;
+  padding-top: 2em;
 }
 
 .separate-product-descriptions {
@@ -623,31 +613,48 @@ transform: translate(-50%, -50%);
 .customer-reviews{
   margin-top: 1.5em;
   display: flex;
+  margin-left: 9em;
+  margin-right: 9em;
 }
 
 
 .review-name{
-  width: 33%;
+  width: 25%;
   display: block;
+  margin-right: 1em;
 }
 
 .review-description{
-  width: 57%;
+  width: 55%;
   display: block;
+  margin-right: 2em;
 }
 
 .review-date{
-  width: 5%;
+  width: 15%;
 }
 
 .review-header{
+  margin-left: 8em;
   margin-top: 4.5em;
   margin-bottom: 2em;
 }
 
-@media screen and (max-width: 45em) {
+
+#review-hr {
+	height: 1px;
+  margin-right: 7em;
+  margin-left: 7em;
+  background-color: rgb(195, 102, 41);
+  border: none;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 60em) {
   .customer-reviews{
     display: block;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   .review-name{
@@ -661,10 +668,28 @@ transform: translate(-50%, -50%);
     display: block;
   }
 
+  .review-header{
+    margin-left: 1em;
+  }
+
   .review-date{
     width: 5%;
 
   }
+
+  #review-hr{
+    margin-right: 0.9em;
+    margin-left: 0.9em;
+  }
+}
+
+
+@media screen and (max-width: 40em) {
+  .customer-reviews{
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+  }
+
 }
 
 /* ---------------- REVIEWS INPUT --------------*/

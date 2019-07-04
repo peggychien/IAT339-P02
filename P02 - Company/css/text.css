@@ -15,6 +15,7 @@ h2{
 
 h3{
   font-family: 'Demi', Helvetica, sans-serif;
+  font-size: 1.15em;
   text-transform: uppercase;
 }
 
@@ -64,6 +65,7 @@ hr {
   border: none;
   margin-top: 3rem;
 }
+
 
 #product-body{
   padding-top: 1em;
