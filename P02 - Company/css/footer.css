@@ -55,6 +55,14 @@ hr {
 	border: none;
 }
 
+#footer-bottom-line {
+	display: block;
+	background-color: rgb(195, 102, 41);
+	height: 1px;
+	margin-top: 3rem;
+	border: none;
+}
+
 /*--------------------------MEDIA QUERIES------------------------------*/
 
 @media screen and (max-width: 57em) {
@@ -83,6 +91,10 @@ hr {
 
 	#search, input {
 		font-size: 0.78rem;
+	}
+
+	#footer-bottom-line {
+		display: none;
 	}
 
 }
