@@ -706,13 +706,6 @@ body{
 }
 
 
-#review-hr {
-	height: 1px;
-  background-color: rgb(195, 102, 41);
-  border: none;
-  margin-top: 3rem;
-}
-
 .review-hr {
 	height: 1px;
   background-color: rgb(195, 102, 41);
@@ -770,22 +763,6 @@ body{
 }
 
 /* ---------------- REVIEWS INPUT --------------*/
-#rev-input input[type=text] {
-  display: block;
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  font-family: 'Light', Helvetica, sans-serif;
-  border: 0.5px solid rgb(187, 67, 43);
-  outline: none;
-  margin-bottom: 1rem;
-}
-
-#rev-input{
-  padding-bottom: 2em;
-  display: block;
-}
 
 .rev-input input[type=text] {
   display: block;
@@ -1203,16 +1180,6 @@ input[type=text] {
   outline: none;
   border: solid 0.5px rgba(195, 102, 41, 0.5);
   font-family: 'Light', Helvetica, sans-serif;
-}
-
-input[type=text] {
-	width: 100%;
-  padding: 0.85rem;
-  margin-top: 0.5rem;
-  margin-bottom: 1.5rem;
-  box-sizing: border-box;
-  outline: none;
-  border: solid 1px rgba(195, 102, 41, 0.5);
 }
 
 
@@ -1952,12 +1919,6 @@ input[type=text] {
 	width: 80%;
 	display: inline-block;
 	text-align: left;
-}
-
-#separate-faq {
-	border: 0.5px solid rgb(195, 102, 41);
-	width: 100%;
-	margin: 0;
 }
 
 .separate-faq {
