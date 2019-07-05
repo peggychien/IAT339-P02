@@ -127,6 +127,37 @@ section code {
 }
 /* ------------INTERACTIVE ELEMENTS ------------------- */
 
+.grid-wrapper {
+  text-align: center;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 1.5rem;
+}
+
+.grid-item {
+  flex: 1 1 auto;
+  background-color: rgba(195, 102, 41, 0.25);
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+
+.grid-item-1 {
+  flex: 1 1 auto;
+  background-color: rgba(195, 102, 41, 0.25);
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.grid-item-3 {
+  flex: 3 1 auto;
+  background-color: rgba(195, 102, 41, 0.25);
+  height: 2rem;
+  margin-right: 1rem;
+}
 
 
 /* ------------TEXT ELEMENTS ------------------- */

@@ -456,6 +456,28 @@ body{
     font-size: 0.85em;
   }
 
+  .side-bar {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .filter-line {
+    width: 80%;
+  }
+
+  .filter-title {
+    width: 100%;
+  }
+
+  .filter-option-1 {
+    width: 80%;
+  }
+
+  .filter-option-2 {
+    width: 80%;
+  }
+
 }
 
 
