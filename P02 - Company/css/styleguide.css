@@ -75,17 +75,56 @@ section code {
 }
 
 .colour-code-container {
+  margin-top: 1em;
   display: flex;
   flex-wrap: wrap;
 }
 
 .colour-code-item {
-  font-family: 'SourceSansPro-Light', sans-serif;
+  font-family: 'Light', sans-serif;
   font-size: 0.75rem;
   flex: 1 1 auto;
   text-align: center;
 }
 
+.apercu{
+  font-family: 'Demi', Helvetica, sans-serif;
+  font-size: 3em;
+  margin: 0;
+  padding-top: 2em;
+  color: #BB432B;
+}
+
+.apercu-body{
+  font-family: 'Demi', Helvetica, sans-serif;
+  font-size: 1.5em;
+  margin: 0;
+  color: #BB432B;
+}
+
+.agne{
+  font-family: 'Logo', Helvetica, sans-serif;
+  font-size: 3em;
+  margin: 0;
+  color: #BB432B;
+}
+
+.agne-body{
+  font-family: 'Logo', Helvetica, sans-serif;
+  font-size: 1.5em;
+  margin: 0;
+  color: #BB432B;
+}
+
+.moodboard{
+  width: 100%;
+}
+
+#styleguide-navitem{
+  font-family: 'Demi', Helvetica, sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
 /* ------------INTERACTIVE ELEMENTS ------------------- */
 
 
