@@ -55,7 +55,6 @@ hr {
 	border: none;
 }
 
-
 /*--------------------------MEDIA QUERIES------------------------------*/
 
 @media screen and (max-width: 57em) {
@@ -76,10 +75,10 @@ hr {
 		letter-spacing: 0.08rem;
 	  	padding-bottom: 0.25rem;
 	  	width: 12.5rem;
-	 	margin: 0;
-	 	padding-left: 0;
+	 	margin-left: 2rem;
+	 	margin-bottom: 2rem;
 	  	/*border: none;*/
-	  	text-align: left;
+	  	float: left;
 	}
 
 	#search, input {
