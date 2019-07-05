@@ -53,6 +53,12 @@ body{
   color: #BB432B;
 }
 
+#logo-styleguide{
+  font-family: 'Logo', Times, serif;
+  font-size: 3em;
+  color: #BB432B;
+}
+
 #logo-burger{
   font-family: 'Logo', Times, serif;
   font-size: 3em;

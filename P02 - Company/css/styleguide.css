@@ -120,7 +120,7 @@ section code {
   width: 100%;
 }
 
-#styleguide-navitem{
+.styleguide-navitem{
   font-family: 'Demi', Helvetica, sans-serif;
   font-size: 1.5em;
   margin-bottom: 1em;
