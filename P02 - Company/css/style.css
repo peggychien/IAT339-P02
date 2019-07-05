@@ -663,6 +663,14 @@ body{
   margin-top: 3rem;
 }
 
+.review-hr {
+	height: 1px;
+  background-color: rgb(195, 102, 41);
+  border: none;
+  margin-top: 3rem;
+}
+
+
 @media screen and (max-width: 60em) {
   .customer-reviews{
     display: block;
@@ -687,6 +695,11 @@ body{
   }
 
   #review-hr{
+    margin-right: 0.9em;
+    margin-left: 0.9em;
+  }
+
+  .review-hr{
     margin-right: 0.9em;
     margin-left: 0.9em;
   }
@@ -720,6 +733,23 @@ body{
 }
 
 #rev-input{
+  padding-bottom: 2em;
+  display: block;
+}
+
+.rev-input input[type=text] {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: 'Light', Helvetica, sans-serif;
+  border: 0.5px solid rgb(187, 67, 43);
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+.rev-input{
   padding-bottom: 2em;
   display: block;
 }
