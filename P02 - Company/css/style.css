@@ -37,7 +37,7 @@ body{
   border-style: solid;
   border-width: thin;
   border-color: transparent;
-  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
   transition: border-color 0.5s ease-out;
   font-family: 'Medium', Helvetica, sans-serif;
 }
@@ -2023,7 +2023,7 @@ input[type=text] {
 
 #myBtn:hover {
   background-color: rgb(195, 102, 41);
-  border-color: rgb(195, 102, 41);
+  /*border-color: rgb(195, 102, 41);*/
 }
 
 
@@ -2074,25 +2074,25 @@ i{
   width: 0.8rem;
 }
 
-::-webkit-scrollbar-button:vertical:decrement
+::-webkit-scrollbar-button
 {
   border-width: 0;
   border-color: transparent transparent transparent transparent;
 }
 
-::-webkit-scrollbar-button:vertical:decrement:hover
+::-webkit-scrollbar-button:hover
 {
   border-color: transparent transparent transparent transparent;
 }
 
 
-::-webkit-scrollbar-button:vertical:increment
+::-webkit-scrollbar-button
 {
   border-width: 0;
   border-color: transparent transparent transparent transparent;
 }
 
-::-webkit-scrollbar-button:vertical:increment:hover
+::-webkit-scrollbar-button:hover
 {
   border-color: transparent transparent transparent transparent;
 }
