@@ -53,6 +53,12 @@ body{
   color: #BB432B;
 }
 
+#logo-styleguide{
+  font-family: 'Logo', Times, serif;
+  font-size: 3em;
+  color: #BB432B;
+}
+
 #logo-burger{
   font-family: 'Logo', Times, serif;
   font-size: 3em;
@@ -684,6 +690,14 @@ body{
   margin-top: 3rem;
 }
 
+.review-hr {
+	height: 1px;
+  background-color: rgb(195, 102, 41);
+  border: none;
+  margin-top: 3rem;
+}
+
+
 @media screen and (max-width: 60em) {
   .customer-reviews{
     display: block;
@@ -708,6 +722,11 @@ body{
   }
 
   #review-hr{
+    margin-right: 0.9em;
+    margin-left: 0.9em;
+  }
+
+  .review-hr{
     margin-right: 0.9em;
     margin-left: 0.9em;
   }
@@ -741,6 +760,23 @@ body{
 }
 
 #rev-input{
+  padding-bottom: 2em;
+  display: block;
+}
+
+.rev-input input[type=text] {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: 'Light', Helvetica, sans-serif;
+  border: 0.5px solid rgb(187, 67, 43);
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+.rev-input{
   padding-bottom: 2em;
   display: block;
 }
@@ -954,6 +990,7 @@ iframe {
   width: 100%;
   height: 22rem;
   margin-top: 0.5rem;
+  border: 0;
 }
 
 .contactinfo-icons {
@@ -1143,6 +1180,16 @@ input[type=text] {
   outline: none;
   border: solid 0.5px rgba(195, 102, 41, 0.5);
   font-family: 'Light', Helvetica, sans-serif;
+}
+
+input[type=text] {
+	width: 100%;
+  padding: 0.85rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+  outline: none;
+  border: solid 1px rgba(195, 102, 41, 0.5);
 }
 
 
@@ -1885,6 +1932,12 @@ input[type=text] {
 }
 
 #separate-faq {
+	border: 0.5px solid rgb(195, 102, 41);
+	width: 100%;
+	margin: 0;
+}
+
+.separate-faq {
 	border: 0.5px solid rgb(195, 102, 41);
 	width: 100%;
 	margin: 0;

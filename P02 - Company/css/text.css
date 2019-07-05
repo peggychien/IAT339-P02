@@ -78,6 +78,11 @@ ol, li {
   padding-bottom: 1em;
 }
 
+.product-body{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 .price{
   float: right;
   font-size: 1em;

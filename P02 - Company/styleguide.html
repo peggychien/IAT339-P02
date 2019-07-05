@@ -14,7 +14,8 @@
   <title>Honesty - Tea & Coffee</title>
 </head>
 <body>
-  <!--------------- NAVIGATION BAR --------------->
+
+  <!--- ===================== NAVIGATION BAR ===================== -->
   <div class="burger-nav">
     <a href="index.html" id="logo-burger">honesty</a>
     <div class="burger">
@@ -46,10 +47,10 @@
   <section id="styleguide-nav">
     <h3>Go To</h3>
     <ul>
-      <li id="styleguide-navitem"><a href="#art-direction">Art Direction</a></li>
-      <li id="styleguide-navitem"><a href="#interactive-elements">Interactive Elements</a></li>
-      <li id="styleguide-navitem"><a href="#text-elements">Text Elements</a></li>
-      <li id="styleguide-navitem"><a href="#combined-elements">Combined Elements</a></li>
+      <li class="styleguide-navitem"><a href="#art-direction">Art Direction</a></li>
+      <li class="styleguide-navitem"><a href="#interactive-elements">Interactive Elements</a></li>
+      <li class="styleguide-navitem"><a href="#text-elements">Text Elements</a></li>
+      <li class="styleguide-navitem"><a href="#combined-elements">Combined Elements</a></li>
     </ul>
   </section>
 
@@ -134,8 +135,8 @@
     <code>&lt;a href="#" class="button-nav"&gt;ADD TO YOUR CART&lt;/a&gt;</code>
 
     <h4>Rendered Element:</h4>
-    <form id="rev-input">
-      <input type="text" class="review-inputfield" id="rev-input" name="fname" placeholder="Name">
+    <form class="rev-input">
+      <input type="text" class="review-inputfield rev-input" name="fname" placeholder="Name">
     </form>
   </section>
 
@@ -226,7 +227,7 @@
        bed to promote restful sleep.&lt;/p&gt;</code>
 
     <h4>Rendered Element</h4>
-    <p id="product-body" class="style-para">
+    <p class="product-body style-para">
       Egyptian Chamomile is regarded the best quality on the market.
       Full buds impart a heady and earthy aroma in the cup. Chamomile
       tea’s most well-known benefit is as a sleep aid. It is known for
@@ -297,13 +298,31 @@
 
 
   <section id="combined-elements">
-    <h2>Interactive Elements</h2>
+    <h2>Combined Elements</h2>
     <h3>Main Navigation</h3>
     <h4>CSS Selector:</h4>
     <p>.nav-button</p>
 
     <h4>Sample Code:</h4>
-    <code>&lt;a href="#" class="button-nav"&gt;ADD TO YOUR CART&lt;/a&gt;</code>
+    <code>
+      &lt;div class="nav"&gt;
+      <br>
+      &lt;a href="all-products.html" class="nav-item"&gt;Products&lt;/a&gt;
+          <br>
+          &lt;a href="about.html" class="nav-item"&gt;About&lt;/a&gt;
+          <br>
+          &lt;div class="logo-styleguide"&gt;
+          <br>
+          &lt;a href="index.html" id="logo"&gt;honesty&lt;/a&gt;
+          <br>
+          &lt;/div&gt;
+          <br>
+        &lt;a href="contact.html" class="nav-item"&gt;Contact&lt;/a&gt;
+          <br>
+          &lt;a href="shopping-cart.html" class="nav-item"&gt;Shopping Cart&lt;/a&gt;
+          <br>
+          &lt;/div&gt;
+    </code>
 
     <h4>Rendered Element</h4>
     <div class="nav-styleguide">
@@ -311,7 +330,7 @@
         <a href="about.html" class="nav-item">About</a>
 
         <div class="logo-styleguide">
-            <a href="index.html" id="logo">honesty</a>
+            <a href="index.html" id="logo-styleguide">honesty</a>
         </div>
 
         <a href="contact.html" class="nav-item">Contact</a>
@@ -325,7 +344,43 @@
     <p>.nav-button</p>
 
     <h4>Sample Code:</h4>
-    <code>&lt;a href="#" class="button-nav"&gt;ADD TO YOUR CART&lt;/a&gt;</code>
+    <code>
+      &lt;div class="product"&gt;
+          <br>
+          &lt;div class="half"&gt;
+          <br>
+                &lt;img src="img/tea-1.jpg" alt="Egyptian Camomile" class="product-img"&gt;
+                <br>
+            &lt;/div&gt; <br>
+          &lt;div class="product-description half"&gt;
+            <br>
+            &lt;h4 class="fourth-title"&gt;from $25.99 IN STOCK &lt;/h4&gt;
+            <br>
+            &lt;h3 class="third-title"&gt; EGYPTIAN CHAMOMILE TEA &lt;/h3&gt;
+            <br>
+              &lt;hr&gt;
+              <br>
+                &lt;div class="stars"&gt;
+                <br>
+                      &lt;img src="img/star.png alt="Stars" class="star-rating"&gt;
+                      <br>
+                      &lt;img src="img/star.png alt="Stars" class="star-rating"&gt;
+                      <br>
+                      &lt;img src="img/star.png alt="Stars" class="star-rating"&gt;
+                      <br>
+                      &lt;img src="img/star.png alt="Stars" class="star-rating"&gt;
+                      <br>
+                      &lt;img src="img/star1.png alt="Stars" class="star-rating"&gt;
+                      <br>
+              &lt;/div&gt; <br>
+              &lt;p id="product-body"&gt;Egyptian Chamomile is regarded the best quality on the market.
+              <br>Full buds impart a heady and earthy aroma in the cup. Chamomile tea’s most well-known benefit
+              <br>is as a sleep aid. It is known for its relaxing and soothing properties and is often taken
+              <br>before bed to promote restful sleep. &lt;/p&gt;
+              <br>&lt;a href="shopping-bag.html" class="button"&gt;ADD TO YOUR CART&lt;/a&gt;
+              <br> &lt;/div&gt; <br>
+            &lt;/div&gt;
+    </code>
 
     <h4>Rendered Element</h4>
     <div class="product">
@@ -344,7 +399,7 @@
           <img src="img/star.png" alt="Stars" class="star-rating">
           <img src="img/star1.png" alt="Stars" class="star-rating">
         </div>
-        <p id="product-body">Egyptian Chamomile is regarded the best quality on the market.
+        <p class="product-body">Egyptian Chamomile is regarded the best quality on the market.
           Full buds impart a heady and earthy aroma in the cup. Chamomile tea’s most well-known benefit
           is as a sleep aid. It is known for its relaxing and soothing properties and is often taken
           before bed to promote restful sleep.</p>
@@ -377,10 +432,37 @@
 
     <h3>Grid Structure</h3>
     <h4>CSS Selector:</h4>
-    <p>.wrapper</p>
+    <p>.grid-wrapper, .grid-item</p>
 
     <h4>Sample Code:</h4>
-    <code>&lt;a href="#" class="button-nav"&gt;ADD TO YOUR CART&lt;/a&gt;</code>
+    <code>&lt;div class="grid-wrapper"&gt;
+      <br>&lt;div class="grid-item"&gt; &lt;/div&gt;
+      <br>&lt;/div&gt;
+      <br>
+      <br>&lt;div class="grid-wrapper"&gt;
+        <br>&lt;div class="grid-item"&gt; &lt;/div&gt;
+        <br>&lt;div class="grid-item"&gt; &lt;/div&gt;
+        <br>&lt;/div&gt;
+        <br>
+        <br>&lt;div class="grid-wrapper"&gt;
+          <br>&lt;div class="grid-item"&gt; &lt;/div&gt;
+          <br>&lt;div class="grid-item"&gt; &lt;/div&gt;
+          <br>&lt;div class="grid-item"&gt; &lt;/div&gt;
+          <br>&lt;/div&gt;
+          <br>
+          <br>&lt;div class="grid-wrapper"&gt;
+            <br>&lt;div class="grid-item"&gt; &lt;/div&gt;
+            <br>&lt;div class="grid-item"&gt; &lt;/div&gt;
+            <br>&lt;div class="grid-item"&gt; &lt;/div&gt;
+            <br>&lt;div class="grid-item"&gt; &lt;/div&gt;
+            <br>&lt;/div&gt;
+            <br>
+            <br>&lt;div class="grid-wrapper"&gt;
+              <br>&lt;div class="grid-item-1"&gt; &lt;/div&gt;
+              <br>&lt;div class="grid-item-3"&gt; &lt;/div&gt;
+              <br>&lt;/div&gt;
+
+    </code>
 
     <h4>Rendered Element</h4>
 
@@ -410,24 +492,12 @@
       <div class="grid-item-1"></div>
       <div class="grid-item-3"></div>
     </div>
-
-
-
-    <h3>Color Swatches</h3>
-    <h4>CSS Selector:</h4>
-    <p>.nav-button</p>
-
-    <h4>Sample Code:</h4>
-    <code>&lt;a href="#" class="button-nav"&gt;ADD TO YOUR CART&lt;/a&gt;</code>
-
-    <h4>Rendered Element</h4>
-    <a href="#" class="button"></a>
   </section>
 
 
 
   <button onclick="topFunction()" id="myBtn" title="Go to top"> <i class = "up"> </i> </button>
-  <!--------------- FOOTER --------------->
+  <!--- ===================== NAVIGATION BAR ===================== -->
   <div class="footer">
     <hr>
     <div class="footer-nav">
